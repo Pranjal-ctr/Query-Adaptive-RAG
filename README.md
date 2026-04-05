@@ -6,14 +6,9 @@
 
 ---
 
-## 👥 Team Members
+## 👤 Author
 
-| Name | Role | Responsibilities |
-|------|------|------------------|
-| **Pranjal Sahani** | Team Leader / Lead Developer | Project architecture, RAG pipeline design, regime-aware retrieval algorithm, experiment orchestration, cross-domain statistical analysis |
-| **Ankit Pandey** | Data Engineering & Pipeline | Data ingestion (Yelp & Legal), FAISS indexing, query generation, score curve collection, data preprocessing |
-| **Anil Gurjar** | Frontend & Visualization | Analytics dashboard (Vite + Chart.js), interactive visualizations, cross-domain comparison plots, taxonomy charts |
-| **Shreyas Sanjay** | Literature Review & Evaluation | Research survey, RAG evaluation framework, regime classifier training & analysis, documentation and report writing |
+**Pranjal Sahani** — [GitHub](https://github.com/Pranjal-ctr)
 
 ---
 
