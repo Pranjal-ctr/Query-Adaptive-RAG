@@ -1,0 +1,3731 @@
+======================================================================
+  RAG EVALUATION REPORT
+  Generated: 2026-03-11 01:51:23
+  Total Queries Evaluated: 396
+  Relevance Threshold: 0.65
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  OVERALL MODEL METRICS
+──────────────────────────────────────────────────────────────────────
+
+  ┌─── Retrieval Quality ───┐
+  │ Max Similarity (avg):     0.6515
+  │ Mean Similarity (avg):    0.6087
+  │ Score Range (avg):        0.0573
+  │ Confidence Score (avg):   0.9679
+  └──────────────────────────┘
+
+  ┌─── Precision@K ──────────┐
+  │ P@3:                      0.3552
+  │ P@5:                      0.2889
+  │ P@10:                     0.2106
+  └──────────────────────────┘
+
+  ┌─── NDCG@K ────────────────┐
+  │ NDCG@5:                    1.0000
+  │ NDCG@10:                   1.0000
+  │ NDCG@20:                   1.0000
+  └────────────────────────────┘
+
+  ┌─── Hit Rate & MRR ────────┐
+  │ MRR:                       0.5076
+  │ Hit Rate@3:                0.5076
+  │ Hit Rate@5:                0.5076
+  │ Hit Rate@10:               0.5076
+  └────────────────────────────┘
+
+  ┌─── LLM Judge (1-5) ──────┐
+  │ Faithfulness:              4.27
+  │ Answer Relevancy:          4.15
+  │ Completeness:              3.78
+  └────────────────────────────┘
+
+──────────────────────────────────────────────────────────────────────
+  PER-INTENT BREAKDOWN
+──────────────────────────────────────────────────────────────────────
+
+  Intent             N   MaxSim     P@5   NDCG@10     MRR   HitR@5    Conf
+  -----------------------------------------------------------------
+  aspect           127   0.6489  0.2819    1.0000  0.4882   0.4882  0.9688
+  complaint         17   0.6612  0.4471    1.0000  0.6471   0.6471  0.9690
+  general          226   0.6490  0.2434    1.0000  0.4779   0.4779  0.9675
+  recommendation    26   0.6798  0.6154    1.0000  0.7692   0.7692  0.9659
+
+  Intent             N   Faith   Relev   Compl
+  ----------------------------------------
+  aspect           127    4.28    4.09    3.88
+  complaint         17    4.00    4.25    4.00
+  general          226    4.26    4.16    3.68
+  recommendation    26    4.50    4.33    4.00
+
+──────────────────────────────────────────────────────────────────────
+  PER-QUERY METRICS
+──────────────────────────────────────────────────────────────────────
+
+  [  1] q_1772135703_0001
+       Query:    What are the best restaurants for a date night?
+       Intent:   recommendation
+       MaxSim:   0.7188  |  MeanSim: 0.6436  |  Range: 0.1008
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.6000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9320
+       Relevant: 6/8 used, 6/20 total
+
+  [  2] q_1772135712_0002
+       Query:    Can you recommend a place with great pizza?
+       Intent:   recommendation
+       MaxSim:   0.7408  |  MeanSim: 0.7013  |  Range: 0.0527
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9604
+       Relevant: 8/8 used, 20/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  5/5
+
+  [  3] q_1772135720_0003
+       Query:    Suggest a restaurant with good vegetarian options
+       Intent:   recommendation
+       MaxSim:   0.7255  |  MeanSim: 0.6873  |  Range: 0.0560
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9681
+       Relevant: 8/8 used, 20/20 total
+
+  [  4] q_1772135727_0004
+       Query:    Which place has the best burgers?
+       Intent:   recommendation
+       MaxSim:   0.7004  |  MeanSim: 0.6589  |  Range: 0.0565
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9579
+       Relevant: 8/8 used, 15/20 total
+
+  [  5] q_1772135733_0005
+       Query:    Recommend a good brunch spot
+       Intent:   recommendation
+       MaxSim:   0.7494  |  MeanSim: 0.7135  |  Range: 0.0515
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9707
+       Relevant: 8/8 used, 20/20 total
+
+  [  6] q_1772135742_0006
+       Query:    What's the best place for seafood?
+       Intent:   recommendation
+       MaxSim:   0.7255  |  MeanSim: 0.6745  |  Range: 0.0732
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9550
+       Relevant: 8/8 used, 20/20 total
+
+  [  7] q_1772135747_0007
+       Query:    Where should I go for authentic Mexican food?
+       Intent:   aspect
+       MaxSim:   0.7535  |  MeanSim: 0.6870  |  Range: 0.0974
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9582
+       Relevant: 5/5 used, 20/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [  8] q_1772135753_0008
+       Query:    Recommend a restaurant for a family dinner
+       Intent:   recommendation
+       MaxSim:   0.6783  |  MeanSim: 0.6456  |  Range: 0.0440
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9662
+       Relevant: 5/8 used, 5/20 total
+
+  [  9] q_1772135759_0009
+       Query:    What's the best spot for a quick lunch?
+       Intent:   recommendation
+       MaxSim:   0.6438  |  MeanSim: 0.6165  |  Range: 0.0431
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9793
+       Relevant: 0/8 used, 0/20 total
+       Faith:   5/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [ 10] q_1772135767_0010
+       Query:    Suggest a place with amazing desserts
+       Intent:   recommendation
+       MaxSim:   0.7126  |  MeanSim: 0.6829  |  Range: 0.0426
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9748
+       Relevant: 8/8 used, 20/20 total
+
+  [ 11] q_1772135773_0011
+       Query:    Where can I get the best sushi?
+       Intent:   recommendation
+       MaxSim:   0.7301  |  MeanSim: 0.6862  |  Range: 0.0606
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9631
+       Relevant: 8/8 used, 20/20 total
+
+  [ 12] q_1772135778_0012
+       Query:    Recommend a cozy cafe for coffee
+       Intent:   recommendation
+       MaxSim:   0.6739  |  MeanSim: 0.6382  |  Range: 0.0523
+       P@3:      1.0000  |  P@5:     0.8000  |  P@10:  0.4000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9670
+       Relevant: 4/8 used, 4/20 total
+
+  [ 13] q_1772135789_0013
+       Query:    What's the best barbecue restaurant?
+       Intent:   recommendation
+       MaxSim:   0.6652  |  MeanSim: 0.6288  |  Range: 0.0539
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9663
+       Relevant: 3/8 used, 3/20 total
+
+  [ 14] q_1772135795_0014
+       Query:    Suggest a restaurant with healthy food options
+       Intent:   recommendation
+       MaxSim:   0.7227  |  MeanSim: 0.6740  |  Range: 0.0595
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9478
+       Relevant: 8/8 used, 20/20 total
+
+  [ 15] q_1772135802_0015
+       Query:    Where should I go for the best breakfast?
+       Intent:   recommendation
+       MaxSim:   0.6904  |  MeanSim: 0.6644  |  Range: 0.0403
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9811
+       Relevant: 8/8 used, 20/20 total
+
+  [ 16] q_1772135807_0016
+       Query:    What are common complaints about slow service?
+       Intent:   complaint
+       MaxSim:   0.6397  |  MeanSim: 0.5956  |  Range: 0.0623
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9596
+       Relevant: 0/6 used, 0/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 17] q_1772135812_0017
+       Query:    Which restaurants have bad food quality?
+       Intent:   complaint
+       MaxSim:   0.6879  |  MeanSim: 0.6644  |  Range: 0.0366
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9871
+       Relevant: 6/6 used, 20/20 total
+       Faith:   3/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [ 18] q_1772135817_0018
+       Query:    What do people dislike about expensive restaurants?
+       Intent:   complaint
+       MaxSim:   0.6602  |  MeanSim: 0.6289  |  Range: 0.0429
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9784
+       Relevant: 3/6 used, 3/20 total
+
+  [ 19] q_1772135822_0019
+       Query:    Tell me about restaurants with rude staff
+       Intent:   general
+       MaxSim:   0.7176  |  MeanSim: 0.6926  |  Range: 0.0350
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9851
+       Relevant: 4/4 used, 20/20 total
+
+  [ 20] q_1772135829_0020
+       Query:    What are the worst dining experiences?
+       Intent:   complaint
+       MaxSim:   0.7177  |  MeanSim: 0.6724  |  Range: 0.0617
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9657
+       Relevant: 6/6 used, 20/20 total
+
+  [ 21] q_1772135834_0021
+       Query:    What do people complain about regarding cold food?
+       Intent:   complaint
+       MaxSim:   0.6158  |  MeanSim: 0.5897  |  Range: 0.0367
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9832
+       Relevant: 0/6 used, 0/20 total
+
+  [ 22] q_1772135838_0022
+       Query:    Which places have the most negative reviews?
+       Intent:   general
+       MaxSim:   0.6180  |  MeanSim: 0.5931  |  Range: 0.0367
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9839
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 23] q_1772135844_0023
+       Query:    What restaurants have hygiene problems?
+       Intent:   general
+       MaxSim:   0.6431  |  MeanSim: 0.6147  |  Range: 0.0456
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9955
+       Relevant: 0/4 used, 0/20 total
+
+  [ 24] q_1772135849_0024
+       Query:    Tell me about bad experiences with wrong orders
+       Intent:   complaint
+       MaxSim:   0.6883  |  MeanSim: 0.6590  |  Range: 0.0433
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9799
+       Relevant: 6/6 used, 12/20 total
+
+  [ 25] q_1772135855_0025
+       Query:    What are common complaints about overpriced meals?
+       Intent:   complaint
+       MaxSim:   0.6954  |  MeanSim: 0.6391  |  Range: 0.0740
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9517
+       Relevant: 3/6 used, 3/20 total
+
+  [ 26] q_1772135859_0026
+       Query:    Which restaurants serve small portions?
+       Intent:   general
+       MaxSim:   0.6675  |  MeanSim: 0.6389  |  Range: 0.0398
+       P@3:      1.0000  |  P@5:     0.8000  |  P@10:  0.4000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9868
+       Relevant: 4/4 used, 4/20 total
+
+  [ 27] q_1772135867_0027
+       Query:    What do people hate most about dining out?
+       Intent:   general
+       MaxSim:   0.6536  |  MeanSim: 0.6194  |  Range: 0.0438
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9727
+       Relevant: 1/4 used, 1/20 total
+
+  [ 28] q_1772135874_0028
+       Query:    Tell me about terrible waitstaff experiences
+       Intent:   general
+       MaxSim:   0.7289  |  MeanSim: 0.6809  |  Range: 0.0616
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9704
+       Relevant: 4/4 used, 20/20 total
+
+  [ 29] q_1772135877_0029
+       Query:    What restaurants have long wait times?
+       Intent:   general
+       MaxSim:   0.6802  |  MeanSim: 0.6516  |  Range: 0.0444
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.8000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9924
+       Relevant: 4/4 used, 8/20 total
+
+  [ 30] q_1772135886_0030
+       Query:    What are the biggest disappointments at popular restaurants?
+       Intent:   general
+       MaxSim:   0.6493  |  MeanSim: 0.6274  |  Range: 0.0317
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9832
+       Relevant: 0/4 used, 0/20 total
+
+  [ 31] q_1772135890_0031
+       Query:    How is the food quality at local restaurants?
+       Intent:   aspect
+       MaxSim:   0.6666  |  MeanSim: 0.6502  |  Range: 0.0234
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9892
+       Relevant: 5/5 used, 10/20 total
+
+  [ 32] q_1772135896_0032
+       Query:    What do reviews say about the taste of seafood?
+       Intent:   aspect
+       MaxSim:   0.6651  |  MeanSim: 0.6307  |  Range: 0.0490
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9775
+       Relevant: 3/5 used, 3/20 total
+
+  [ 33] q_1772135903_0033
+       Query:    Tell me about restaurants with fresh ingredients
+       Intent:   general
+       MaxSim:   0.6963  |  MeanSim: 0.6891  |  Range: 0.0142
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9980
+       Relevant: 4/4 used, 20/20 total
+
+  [ 34] q_1772135909_0034
+       Query:    Which places have the best desserts?
+       Intent:   recommendation
+       MaxSim:   0.6533  |  MeanSim: 0.6243  |  Range: 0.0410
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9729
+       Relevant: 1/8 used, 1/20 total
+
+  [ 35] q_1772135914_0035
+       Query:    What do people think about portion sizes?
+       Intent:   general
+       MaxSim:   0.6974  |  MeanSim: 0.5962  |  Range: 0.1260
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9213
+       Relevant: 2/4 used, 2/20 total
+
+  [ 36] q_1772135919_0036
+       Query:    How do people describe the flavor of curries?
+       Intent:   general
+       MaxSim:   0.6252  |  MeanSim: 0.6006  |  Range: 0.0366
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9884
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [ 37] q_1772135926_0037
+       Query:    What are the most popular dishes people order?
+       Intent:   general
+       MaxSim:   0.6654  |  MeanSim: 0.6260  |  Range: 0.0555
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9704
+       Relevant: 1/4 used, 1/20 total
+
+  [ 38] q_1772135933_0038
+       Query:    Tell me about restaurants with homemade pasta
+       Intent:   general
+       MaxSim:   0.7022  |  MeanSim: 0.6666  |  Range: 0.0489
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9830
+       Relevant: 4/4 used, 20/20 total
+
+  [ 39] q_1772135937_0039
+       Query:    What do reviews say about steak quality?
+       Intent:   general
+       MaxSim:   0.6877  |  MeanSim: 0.6305  |  Range: 0.0786
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9636
+       Relevant: 3/4 used, 3/20 total
+
+  [ 40] q_1772135941_0040
+       Query:    Which restaurants have good salads?
+       Intent:   general
+       MaxSim:   0.7059  |  MeanSim: 0.6734  |  Range: 0.0499
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9819
+       Relevant: 4/4 used, 20/20 total
+
+  [ 41] q_1772135945_0041
+       Query:    How is the chicken prepared at popular places?
+       Intent:   general
+       MaxSim:   0.6203  |  MeanSim: 0.6052  |  Range: 0.0244
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9947
+       Relevant: 0/4 used, 0/20 total
+
+  [ 42] q_1772135950_0042
+       Query:    What do people say about the freshness of sushi?
+       Intent:   general
+       MaxSim:   0.6753  |  MeanSim: 0.6494  |  Range: 0.0412
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.9000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9839
+       Relevant: 4/4 used, 9/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 43] q_1772135954_0043
+       Query:    How is the customer service at popular restaurants?
+       Intent:   aspect
+       MaxSim:   0.6500  |  MeanSim: 0.6322  |  Range: 0.0309
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9924
+       Relevant: 1/5 used, 1/20 total
+
+  [ 44] q_1772135957_0044
+       Query:    What do people say about waitstaff friendliness?
+       Intent:   general
+       MaxSim:   0.6553  |  MeanSim: 0.6274  |  Range: 0.0447
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9880
+       Relevant: 1/4 used, 1/20 total
+
+  [ 45] q_1772135962_0045
+       Query:    Tell me about restaurants with fast service
+       Intent:   aspect
+       MaxSim:   0.6890  |  MeanSim: 0.6680  |  Range: 0.0315
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9887
+       Relevant: 5/5 used, 20/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 46] q_1772135966_0046
+       Query:    What makes service excellent at a restaurant?
+       Intent:   aspect
+       MaxSim:   0.6665  |  MeanSim: 0.6309  |  Range: 0.0455
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9701
+       Relevant: 2/5 used, 2/20 total
+
+  [ 47] q_1772135974_0047
+       Query:    How do servers handle complaints?
+       Intent:   complaint
+       MaxSim:   0.6107  |  MeanSim: 0.5748  |  Range: 0.0499
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9642
+       Relevant: 0/6 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [ 48] q_1772135979_0048
+       Query:    What do people appreciate about restaurant managers?
+       Intent:   general
+       MaxSim:   0.6605  |  MeanSim: 0.6083  |  Range: 0.0711
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9706
+       Relevant: 1/4 used, 1/20 total
+
+  [ 49] q_1772135984_0049
+       Query:    Tell me about the attentiveness of waiters
+       Intent:   general
+       MaxSim:   0.6749  |  MeanSim: 0.6032  |  Range: 0.0913
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9439
+       Relevant: 1/4 used, 1/20 total
+
+  [ 50] q_1772135989_0050
+       Query:    What restaurants have the friendliest staff?
+       Intent:   general
+       MaxSim:   0.6489  |  MeanSim: 0.6250  |  Range: 0.0346
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9859
+       Relevant: 0/4 used, 0/20 total
+
+  [ 51] q_1772135994_0051
+       Query:    Are there affordable restaurants with good food?
+       Intent:   aspect
+       MaxSim:   0.6833  |  MeanSim: 0.6455  |  Range: 0.0488
+       P@3:      1.0000  |  P@5:     0.8000  |  P@10:  0.4000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9737
+       Relevant: 4/5 used, 4/20 total
+
+  [ 52] q_1772135998_0052
+       Query:    What do people think about restaurant pricing?
+       Intent:   general
+       MaxSim:   0.6630  |  MeanSim: 0.6465  |  Range: 0.0269
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9933
+       Relevant: 4/4 used, 5/20 total
+
+  [ 53] q_1772136007_0053
+       Query:    Which restaurants offer good value for money?
+       Intent:   general
+       MaxSim:   0.6762  |  MeanSim: 0.6522  |  Range: 0.0333
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9790
+       Relevant: 4/4 used, 12/20 total
+
+  [ 54] q_1772136012_0054
+       Query:    How expensive are the top-rated restaurants?
+       Intent:   general
+       MaxSim:   0.6581  |  MeanSim: 0.6288  |  Range: 0.0433
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9833
+       Relevant: 2/4 used, 2/20 total
+
+  [ 55] q_1772136016_0055
+       Query:    What do people say about lunch specials?
+       Intent:   general
+       MaxSim:   0.6310  |  MeanSim: 0.6043  |  Range: 0.0431
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9898
+       Relevant: 0/4 used, 0/20 total
+
+  [ 56] q_1772136023_0056
+       Query:    Are happy hour deals worth it?
+       Intent:   general
+       MaxSim:   0.6706  |  MeanSim: 0.6306  |  Range: 0.0624
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9790
+       Relevant: 2/4 used, 2/20 total
+
+  [ 57] q_1772136030_0057
+       Query:    Which restaurants are overpriced for what they offer?
+       Intent:   aspect
+       MaxSim:   0.7276  |  MeanSim: 0.6890  |  Range: 0.0605
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9805
+       Relevant: 5/5 used, 20/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 58] q_1772136037_0058
+       Query:    Tell me about budget-friendly dining options
+       Intent:   general
+       MaxSim:   0.6824  |  MeanSim: 0.6619  |  Range: 0.0322
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9883
+       Relevant: 4/4 used, 20/20 total
+
+  [ 59] q_1772136041_0059
+       Query:    What restaurants have a cozy atmosphere?
+       Intent:   general
+       MaxSim:   0.6753  |  MeanSim: 0.6406  |  Range: 0.0551
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.6000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9851
+       Relevant: 4/4 used, 6/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 60] q_1772136050_0060
+       Query:    Tell me about places with good outdoor seating
+       Intent:   general
+       MaxSim:   0.7147  |  MeanSim: 0.6759  |  Range: 0.0498
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9716
+       Relevant: 4/4 used, 20/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [ 61] q_1772136056_0061
+       Query:    Which restaurants have live music?
+       Intent:   general
+       MaxSim:   0.6594  |  MeanSim: 0.6160  |  Range: 0.0620
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9678
+       Relevant: 1/4 used, 1/20 total
+
+  [ 62] q_1772136061_0062
+       Query:    What makes a restaurant feel romantic?
+       Intent:   general
+       MaxSim:   0.6398  |  MeanSim: 0.5949  |  Range: 0.0626
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9798
+       Relevant: 0/4 used, 0/20 total
+
+  [ 63] q_1772136067_0063
+       Query:    How important is cleanliness to diners?
+       Intent:   general
+       MaxSim:   0.6546  |  MeanSim: 0.6014  |  Range: 0.0732
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9702
+       Relevant: 1/4 used, 1/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 64] q_1772136071_0064
+       Query:    What do people say about restaurant noise levels?
+       Intent:   general
+       MaxSim:   0.6729  |  MeanSim: 0.6031  |  Range: 0.0888
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9583
+       Relevant: 1/4 used, 1/20 total
+
+  [ 65] q_1772136077_0065
+       Query:    Tell me about restaurants with unique decor
+       Intent:   general
+       MaxSim:   0.6908  |  MeanSim: 0.6579  |  Range: 0.0435
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9719
+       Relevant: 4/4 used, 15/20 total
+
+  [ 66] q_1772136083_0066
+       Query:    Which restaurants have the best views?
+       Intent:   recommendation
+       MaxSim:   0.6753  |  MeanSim: 0.6198  |  Range: 0.0665
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9333
+       Relevant: 1/8 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  3/5
+
+  [ 67] q_1772136089_0067
+       Query:    What are the overall dining trends?
+       Intent:   general
+       MaxSim:   0.5794  |  MeanSim: 0.5585  |  Range: 0.0299
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9870
+       Relevant: 0/4 used, 0/20 total
+
+  [ 68] q_1772136096_0068
+       Query:    Summarize what people think about local restaurants
+       Intent:   general
+       MaxSim:   0.6774  |  MeanSim: 0.6624  |  Range: 0.0209
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9919
+       Relevant: 4/4 used, 20/20 total
+
+  [ 69] q_1772136102_0069
+       Query:    Give me an overview of restaurant experiences
+       Intent:   general
+       MaxSim:   0.6876  |  MeanSim: 0.6659  |  Range: 0.0317
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9861
+       Relevant: 4/4 used, 20/20 total
+
+  [ 70] q_1772136109_0070
+       Query:    What makes a restaurant highly rated?
+       Intent:   general
+       MaxSim:   0.6350  |  MeanSim: 0.6035  |  Range: 0.0433
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9827
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 71] q_1772136113_0071
+       Query:    What factors lead to five-star reviews?
+       Intent:   general
+       MaxSim:   0.5523  |  MeanSim: 0.5059  |  Range: 0.0621
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9559
+       Relevant: 0/4 used, 0/20 total
+
+  [ 72] q_1772136118_0072
+       Query:    Summarize the most common praise in restaurant reviews
+       Intent:   general
+       MaxSim:   0.6293  |  MeanSim: 0.6014  |  Range: 0.0356
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9790
+       Relevant: 0/4 used, 0/20 total
+
+  [ 73] q_1772136123_0073
+       Query:    What drives repeat customers to return?
+       Intent:   general
+       MaxSim:   0.5690  |  MeanSim: 0.5359  |  Range: 0.0451
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9756
+       Relevant: 0/4 used, 0/20 total
+
+  [ 74] q_1772136127_0074
+       Query:    How do restaurants earn customer loyalty?
+       Intent:   general
+       MaxSim:   0.6015  |  MeanSim: 0.5671  |  Range: 0.0522
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9871
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [ 75] q_1772136133_0075
+       Query:    What do people value most in a dining experience?
+       Intent:   general
+       MaxSim:   0.6343  |  MeanSim: 0.5986  |  Range: 0.0494
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9748
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 76] q_1772136143_0076
+       Query:    What separates great restaurants from average ones?
+       Intent:   general
+       MaxSim:   0.6380  |  MeanSim: 0.6071  |  Range: 0.0424
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9833
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 77] q_1772136151_0077
+       Query:    How do expensive restaurants compare to budget ones?
+       Intent:   general
+       MaxSim:   0.6237  |  MeanSim: 0.6023  |  Range: 0.0324
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9895
+       Relevant: 0/4 used, 0/20 total
+
+  [ 78] q_1772136156_0078
+       Query:    Is the food better at places with good service?
+       Intent:   aspect
+       MaxSim:   0.7226  |  MeanSim: 0.6769  |  Range: 0.0582
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9621
+       Relevant: 5/5 used, 20/20 total
+       Faith:   5/5  |  Relev:   2/5  |  Compl:  4/5
+
+  [ 79] q_1772136162_0079
+       Query:    Which is more important to diners: food or atmosphere?
+       Intent:   aspect
+       MaxSim:   0.5869  |  MeanSim: 0.5639  |  Range: 0.0353
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9896
+       Relevant: 0/5 used, 0/20 total
+
+  [ 80] q_1772136167_0080
+       Query:    Do chain restaurants or local spots get better reviews?
+       Intent:   general
+       MaxSim:   0.6678  |  MeanSim: 0.6427  |  Range: 0.0344
+       P@3:      1.0000  |  P@5:     0.8000  |  P@10:  0.4000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9877
+       Relevant: 4/4 used, 4/20 total
+
+  [ 81] q_1772136172_0081
+       Query:    How does lunch quality compare to dinner quality?
+       Intent:   general
+       MaxSim:   0.6067  |  MeanSim: 0.5753  |  Range: 0.0452
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9799
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [ 82] q_1772136176_0082
+       Query:    Are newer restaurants better than established ones?
+       Intent:   general
+       MaxSim:   0.6729  |  MeanSim: 0.6301  |  Range: 0.0589
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9849
+       Relevant: 3/4 used, 3/20 total
+
+  [ 83] q_1772136183_0083
+       Query:    Do restaurants with large menus or small menus get better reviews?
+       Intent:   general
+       MaxSim:   0.6640  |  MeanSim: 0.6284  |  Range: 0.0473
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9756
+       Relevant: 2/4 used, 2/20 total
+
+  [ 84] q_1772136187_0084
+       Query:    Is takeout quality as good as dine-in?
+       Intent:   general
+       MaxSim:   0.6617  |  MeanSim: 0.6351  |  Range: 0.0354
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9769
+       Relevant: 1/4 used, 1/20 total
+
+  [ 85] q_1772136194_0085
+       Query:    Tell me about unique dining experiences
+       Intent:   general
+       MaxSim:   0.7038  |  MeanSim: 0.6741  |  Range: 0.0429
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9868
+       Relevant: 4/4 used, 20/20 total
+
+  [ 86] q_1772136200_0086
+       Query:    What are some hidden gem restaurants?
+       Intent:   general
+       MaxSim:   0.7135  |  MeanSim: 0.6379  |  Range: 0.0970
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.6000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9532
+       Relevant: 4/4 used, 6/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 87] q_1772136207_0087
+       Query:    What unusual food items do people love?
+       Intent:   aspect
+       MaxSim:   0.6124  |  MeanSim: 0.5904  |  Range: 0.0304
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9810
+       Relevant: 0/5 used, 0/20 total
+
+  [ 88] q_1772136213_0088
+       Query:    Describe the most memorable restaurant visits
+       Intent:   general
+       MaxSim:   0.6545  |  MeanSim: 0.6377  |  Range: 0.0254
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9956
+       Relevant: 2/4 used, 2/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 89] q_1772136219_0089
+       Query:    What quirky restaurants do people recommend?
+       Intent:   recommendation
+       MaxSim:   0.6325  |  MeanSim: 0.6171  |  Range: 0.0269
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9866
+       Relevant: 0/8 used, 0/20 total
+
+  [ 90] q_1772136225_0090
+       Query:    Tell me about restaurants that surprised people
+       Intent:   general
+       MaxSim:   0.6962  |  MeanSim: 0.6753  |  Range: 0.0271
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9858
+       Relevant: 4/4 used, 20/20 total
+       Faith:   3/5  |  Relev:   3/5  |  Compl:  2/5
+
+  [ 91] q_1772136231_0091
+       Query:    What creative dishes have reviewers mentioned?
+       Intent:   general
+       MaxSim:   0.6158  |  MeanSim: 0.6026  |  Range: 0.0191
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9944
+       Relevant: 0/4 used, 0/20 total
+
+  [ 92] q_1772136239_0092
+       Query:    What are some underrated restaurants?
+       Intent:   general
+       MaxSim:   0.6762  |  MeanSim: 0.6494  |  Range: 0.0353
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.8000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9804
+       Relevant: 4/4 used, 8/20 total
+
+  [ 93] q_1772136245_0093
+       Query:    restaurants
+       Intent:   general
+       MaxSim:   0.6516  |  MeanSim: 0.6404  |  Range: 0.0183
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9939
+       Relevant: 1/4 used, 1/20 total
+
+  [ 94] q_1772136254_0094
+       Query:    food
+       Intent:   aspect
+       MaxSim:   0.6409  |  MeanSim: 0.6242  |  Range: 0.0257
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9942
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [ 95] q_1772136261_0095
+       Query:    Tell me everything
+       Intent:   general
+       MaxSim:   0.4683  |  MeanSim: 0.4543  |  Range: 0.0221
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9877
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [ 96] q_1772136266_0096
+       Query:    What is good?
+       Intent:   general
+       MaxSim:   0.5696  |  MeanSim: 0.5366  |  Range: 0.0492
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9799
+       Relevant: 0/4 used, 0/20 total
+
+  [ 97] q_1772136272_0097
+       Query:    Is it worth going out to eat?
+       Intent:   general
+       MaxSim:   0.6910  |  MeanSim: 0.6604  |  Range: 0.0479
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9822
+       Relevant: 4/4 used, 16/20 total
+
+  [ 98] q_1772136278_0098
+       Query:    How is the food in this area?
+       Intent:   aspect
+       MaxSim:   0.7122  |  MeanSim: 0.6871  |  Range: 0.0334
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9786
+       Relevant: 5/5 used, 20/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [ 99] q_1772136285_0099
+       Query:    What do you know about dining?
+       Intent:   general
+       MaxSim:   0.5832  |  MeanSim: 0.5626  |  Range: 0.0268
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9845
+       Relevant: 0/4 used, 0/20 total
+
+  [100] q_1772136293_0100
+       Query:    Tell me about eating out
+       Intent:   general
+       MaxSim:   0.6460  |  MeanSim: 0.6263  |  Range: 0.0268
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9886
+       Relevant: 0/4 used, 0/20 total
+
+  [101] q_1772820343_0001
+       Query:    Is the wait time typically long at Drive Thru?
+       Intent:   general
+       MaxSim:   0.7060  |  MeanSim: 0.5983  |  Range: 0.1339
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9060
+       Relevant: 1/4 used, 1/20 total
+
+  [102] q_1772820348_0002
+       Query:    What is the ambience like at Tahini and bread?
+       Intent:   aspect
+       MaxSim:   0.6747  |  MeanSim: 0.6065  |  Range: 0.0825
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9358
+       Relevant: 1/5 used, 1/20 total
+
+  [103] q_1772820354_0003
+       Query:    Are the noodles thick at Cheu Ramen Bar?
+       Intent:   general
+       MaxSim:   0.6826  |  MeanSim: 0.5919  |  Range: 0.1141
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9294
+       Relevant: 1/4 used, 1/20 total
+
+  [104] q_1772820358_0004
+       Query:    Is the parking near Tucson's worst restaurant readily available?
+       Intent:   complaint
+       MaxSim:   0.7015  |  MeanSim: 0.6183  |  Range: 0.1053
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9266
+       Relevant: 3/6 used, 3/20 total
+
+  [105] q_1772820361_0005
+       Query:    Is the service slow at the mentioned restaurant?
+       Intent:   aspect
+       MaxSim:   0.7554  |  MeanSim: 0.6888  |  Range: 0.0981
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9665
+       Relevant: 5/5 used, 20/20 total
+
+  [106] q_1772820368_0006
+       Query:    Does El Limon have authentic Mexican food?
+       Intent:   aspect
+       MaxSim:   0.7193  |  MeanSim: 0.5972  |  Range: 0.1561
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9048
+       Relevant: 2/5 used, 2/20 total
+
+  [107] q_1772820374_0007
+       Query:    Are burgers salted and peppered at the quaint location?
+       Intent:   general
+       MaxSim:   0.7250  |  MeanSim: 0.5924  |  Range: 0.1574
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8856
+       Relevant: 1/4 used, 1/20 total
+
+  [108] q_1772820381_0008
+       Query:    Is there indoor seating at this establishment?
+       Intent:   general
+       MaxSim:   0.5913  |  MeanSim: 0.5611  |  Range: 0.0455
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9821
+       Relevant: 0/4 used, 0/20 total
+
+  [109] q_1772820387_0009
+       Query:    How are the wait times at Kanella Greek Taverna?
+       Intent:   general
+       MaxSim:   0.6466  |  MeanSim: 0.6207  |  Range: 0.0447
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9916
+       Relevant: 0/4 used, 0/20 total
+
+  [110] q_1772820393_0010
+       Query:    Is the service friendly on the Ybor walking tour?
+       Intent:   aspect
+       MaxSim:   0.6908  |  MeanSim: 0.5772  |  Range: 0.1331
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8836
+       Relevant: 1/5 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  3/5
+
+  [111] q_1772820398_0011
+       Query:    Are the vermicelli bowls available for takeout at Alberta Ave restaurant?
+       Intent:   general
+       MaxSim:   0.7348  |  MeanSim: 0.5830  |  Range: 0.1719
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8563
+       Relevant: 1/4 used, 1/20 total
+
+  [112] q_1772820404_0012
+       Query:    What is the cooking style of shrimp and grits at the NOLA restaurant?
+       Intent:   general
+       MaxSim:   0.6848  |  MeanSim: 0.6285  |  Range: 0.0915
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9678
+       Relevant: 4/4 used, 5/20 total
+
+  [113] q_1772820407_0013
+       Query:    Does Harry's blue bell offer outdoor seating?
+       Intent:   general
+       MaxSim:   0.6390  |  MeanSim: 0.5088  |  Range: 0.1501
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.8648
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [114] q_1772820412_0014
+       Query:    How long are the wait times typically at the best burger place in Philly?
+       Intent:   recommendation
+       MaxSim:   0.6635  |  MeanSim: 0.6338  |  Range: 0.0484
+       P@3:      1.0000  |  P@5:     0.8000  |  P@10:  0.4000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9790
+       Relevant: 4/8 used, 4/20 total
+
+  [115] q_1772820418_0015
+       Query:    Is the sushi fresh at Orange Tint and Tune?
+       Intent:   general
+       MaxSim:   0.6140  |  MeanSim: 0.5932  |  Range: 0.0346
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9886
+       Relevant: 0/4 used, 0/20 total
+
+  [116] q_1772820422_0016
+       Query:    Does Blow Bar have outdoor seating?
+       Intent:   general
+       MaxSim:   0.5587  |  MeanSim: 0.5374  |  Range: 0.0328
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9912
+       Relevant: 0/4 used, 0/20 total
+
+  [117] q_1772820425_0017
+       Query:    What is the price range for dinner at the restaurant mentioned in review 5?
+       Intent:   aspect
+       MaxSim:   0.6401  |  MeanSim: 0.6204  |  Range: 0.0292
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9909
+       Relevant: 0/5 used, 0/20 total
+
+  [118] q_1772820429_0018
+       Query:    Does the restaurant in review 7 offer carryout options due to disappointing service?
+       Intent:   aspect
+       MaxSim:   0.6779  |  MeanSim: 0.6537  |  Range: 0.0347
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9857
+       Relevant: 5/5 used, 10/20 total
+
+  [119] q_1772820434_0019
+       Query:    Is parking available near the restaurant with refrigerator cold ribs (mentioned in review 7)?
+       Intent:   general
+       MaxSim:   0.6367  |  MeanSim: 0.5990  |  Range: 0.0471
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9690
+       Relevant: 0/4 used, 0/20 total
+
+  [120] q_1772820441_0020
+       Query:    Is the gumbo served with rice or potato salad at this place?
+       Intent:   general
+       MaxSim:   0.6254  |  MeanSim: 0.5898  |  Range: 0.0524
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9761
+       Relevant: 0/4 used, 0/20 total
+
+  [121] q_1772820445_0021
+       Query:    What is the ambience like at The Preserve, a nature reserve and cafe?
+       Intent:   aspect
+       MaxSim:   0.6368  |  MeanSim: 0.5953  |  Range: 0.0541
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9619
+       Relevant: 0/5 used, 0/20 total
+
+  [122] q_1772820450_0022
+       Query:    Does Sweet CeCe's have unique hummus flavors for toppings?
+       Intent:   general
+       MaxSim:   0.5680  |  MeanSim: 0.5456  |  Range: 0.0358
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9849
+       Relevant: 0/4 used, 0/20 total
+
+  [123] q_1772820454_0023
+       Query:    How large are the portion sizes in family-style dining at this restaurant?
+       Intent:   general
+       MaxSim:   0.6410  |  MeanSim: 0.5959  |  Range: 0.0650
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9797
+       Relevant: 0/4 used, 0/20 total
+
+  [124] q_1772820458_0024
+       Query:    Is the green beans served at this restaurant noteworthy?
+       Intent:   general
+       MaxSim:   0.6715  |  MeanSim: 0.6154  |  Range: 0.0683
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9556
+       Relevant: 1/4 used, 1/20 total
+
+  [125] q_1772820461_0025
+       Query:    Is the beer selection good at the Nintendo 64 bar?
+       Intent:   general
+       MaxSim:   0.6888  |  MeanSim: 0.6225  |  Range: 0.0907
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9541
+       Relevant: 2/4 used, 2/20 total
+
+  [126] q_1772820464_0026
+       Query:    Was the vehicle repair free of charge at this garage?
+       Intent:   general
+       MaxSim:   0.6593  |  MeanSim: 0.5991  |  Range: 0.0813
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9632
+       Relevant: 1/4 used, 1/20 total
+
+  [127] q_1772820470_0027
+       Query:    How is the breakfast value at the truffle restaurant?
+       Intent:   general
+       MaxSim:   0.6438  |  MeanSim: 0.6197  |  Range: 0.0362
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9877
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [128] q_1772820473_0028
+       Query:    Does the guacamole stand out in the overpriced meal?
+       Intent:   aspect
+       MaxSim:   0.7074  |  MeanSim: 0.6232  |  Range: 0.1059
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9395
+       Relevant: 3/5 used, 3/20 total
+
+  [129] q_1772820477_0029
+       Query:    Are there commercials on the TV shows at the hotel?
+       Intent:   general
+       MaxSim:   0.6052  |  MeanSim: 0.5041  |  Range: 0.1227
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.8952
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  3/5
+
+  [130] q_1772820481_0030
+       Query:    Is the pad Thai spicy at the first-time restaurant visit?
+       Intent:   general
+       MaxSim:   0.6725  |  MeanSim: 0.6398  |  Range: 0.0512
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9848
+       Relevant: 4/4 used, 5/20 total
+
+  [131] q_1772820485_0031
+       Query:    Does the North Wilmington diner offer healthy topping options?
+       Intent:   general
+       MaxSim:   0.6441  |  MeanSim: 0.5765  |  Range: 0.0795
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9295
+       Relevant: 0/4 used, 0/20 total
+
+  [132] q_1772820490_0032
+       Query:    What are the prices like for lunch specials at the Chinese place?
+       Intent:   aspect
+       MaxSim:   0.7093  |  MeanSim: 0.6419  |  Range: 0.0859
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9435
+       Relevant: 3/5 used, 3/20 total
+       Faith:   3/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [133] q_1772820494_0033
+       Query:    Is there a customer service department at the disrecommended place?
+       Intent:   recommendation
+       MaxSim:   0.6021  |  MeanSim: 0.5813  |  Range: 0.0288
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9758
+       Relevant: 0/8 used, 0/20 total
+
+  [134] q_1772820497_0034
+       Query:    Is parking easily available near the expensive, distant restaurant?
+       Intent:   general
+       MaxSim:   0.6394  |  MeanSim: 0.6048  |  Range: 0.0466
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9719
+       Relevant: 0/4 used, 0/20 total
+
+  [135] q_1772820501_0035
+       Query:    Does the coffee shop offer a menu?
+       Intent:   general
+       MaxSim:   0.6497  |  MeanSim: 0.6080  |  Range: 0.0594
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9782
+       Relevant: 0/4 used, 0/20 total
+
+  [136] q_1772820505_0036
+       Query:    Is there a specific location for the 50% off Tulane student offer?
+       Intent:   general
+       MaxSim:   0.6031  |  MeanSim: 0.5343  |  Range: 0.0825
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9325
+       Relevant: 0/4 used, 0/20 total
+
+  [137] q_1772820510_0037
+       Query:    Does the restaurant sell deboned duck upon request?
+       Intent:   general
+       MaxSim:   0.6238  |  MeanSim: 0.5503  |  Range: 0.0943
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9338
+       Relevant: 0/4 used, 0/20 total
+
+  [138] q_1772820515_0038
+       Query:    Is the pastries selection at Santana's exceptional?
+       Intent:   general
+       MaxSim:   0.6381  |  MeanSim: 0.5548  |  Range: 0.0962
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9147
+       Relevant: 0/4 used, 0/20 total
+
+  [139] q_1772820520_0039
+       Query:    Are portions small or large at this restaurant?
+       Intent:   general
+       MaxSim:   0.6873  |  MeanSim: 0.6344  |  Range: 0.0725
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9816
+       Relevant: 4/4 used, 5/20 total
+
+  [140] q_1772820523_0040
+       Query:    Is the background music loud at this restaurant?
+       Intent:   general
+       MaxSim:   0.6616  |  MeanSim: 0.6115  |  Range: 0.0759
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9715
+       Relevant: 2/4 used, 2/20 total
+
+  [141] q_1772820527_0041
+       Query:    Does the restaurant offer group dining options?
+       Intent:   general
+       MaxSim:   0.6538  |  MeanSim: 0.6312  |  Range: 0.0307
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9921
+       Relevant: 2/4 used, 2/20 total
+
+  [142] q_1772820531_0042
+       Query:    Are prices higher during weekdays compared to weekends?
+       Intent:   aspect
+       MaxSim:   0.6393  |  MeanSim: 0.5683  |  Range: 0.0962
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9496
+       Relevant: 0/5 used, 0/20 total
+
+  [143] q_1772820535_0043
+       Query:    Is customer service improved after a year's gap?
+       Intent:   aspect
+       MaxSim:   0.5797  |  MeanSim: 0.5405  |  Range: 0.0539
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9653
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [144] q_1772820539_0044
+       Query:    Are recommendations provided by servers at this location?
+       Intent:   recommendation
+       MaxSim:   0.6249  |  MeanSim: 0.6016  |  Range: 0.0331
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9779
+       Relevant: 0/8 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [145] q_1772820543_0045
+       Query:    Is the bun soft and chewy at this Sonoran Dog place?
+       Intent:   general
+       MaxSim:   0.7551  |  MeanSim: 0.5982  |  Range: 0.1874
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8879
+       Relevant: 3/4 used, 3/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [146] q_1772820548_0046
+       Query:    Does this diner offer fast service during happy hour?
+       Intent:   aspect
+       MaxSim:   0.6548  |  MeanSim: 0.6214  |  Range: 0.0477
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9742
+       Relevant: 1/5 used, 1/20 total
+
+  [147] q_1772820551_0047
+       Query:    Are the cannolis freshly filled at Termini Bros?
+       Intent:   general
+       MaxSim:   0.7766  |  MeanSim: 0.5781  |  Range: 0.2253
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8353
+       Relevant: 1/4 used, 1/20 total
+
+  [148] q_1772820554_0048
+       Query:    Does Sweet CeCe's have a good selection of toppings?
+       Intent:   general
+       MaxSim:   0.6208  |  MeanSim: 0.5728  |  Range: 0.0609
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9585
+       Relevant: 0/4 used, 0/20 total
+
+  [149] q_1772820559_0049
+       Query:    Is parking available near North Wilmington's diner?
+       Intent:   general
+       MaxSim:   0.6280  |  MeanSim: 0.5630  |  Range: 0.0796
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9372
+       Relevant: 0/4 used, 0/20 total
+
+  [150] q_1772820561_0050
+       Query:    Is the service mediocre at this comedy club?
+       Intent:   aspect
+       MaxSim:   0.6330  |  MeanSim: 0.5778  |  Range: 0.0678
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9479
+       Relevant: 0/5 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [151] q_1772820565_0051
+       Query:    Does Weaver's Way have a cozy interior?
+       Intent:   general
+       MaxSim:   0.5470  |  MeanSim: 0.5046  |  Range: 0.0615
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9888
+       Relevant: 0/4 used, 0/20 total
+
+  [152] q_1772820568_0052
+       Query:    Are there vegetarian options at Silver Mine?
+       Intent:   general
+       MaxSim:   0.6177  |  MeanSim: 0.5646  |  Range: 0.0722
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9660
+       Relevant: 0/4 used, 0/20 total
+
+  [153] q_1772820572_0053
+       Query:    Does the University location of the sandwich shop offer parking on the street?
+       Intent:   general
+       MaxSim:   0.5847  |  MeanSim: 0.5433  |  Range: 0.0560
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9832
+       Relevant: 0/4 used, 0/20 total
+
+  [154] q_1772820575_0054
+       Query:    Is the coffee selection huge at the ice cream parlor?
+       Intent:   general
+       MaxSim:   0.5994  |  MeanSim: 0.5775  |  Range: 0.0351
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9929
+       Relevant: 0/4 used, 0/20 total
+
+  [155] q_1772820580_0055
+       Query:    Is the pulled pork at Pulled Pork Place overdone?
+       Intent:   general
+       MaxSim:   0.6656  |  MeanSim: 0.6214  |  Range: 0.0581
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9727
+       Relevant: 1/4 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [156] q_1772820584_0056
+       Query:    Does Terrace Lounge offer a new cocktail menu?
+       Intent:   general
+       MaxSim:   0.6804  |  MeanSim: 0.5922  |  Range: 0.1069
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9403
+       Relevant: 2/4 used, 2/20 total
+
+  [157] q_1772820587_0057
+       Query:    How are the portion sizes at Planet Fitness cafe?
+       Intent:   general
+       MaxSim:   0.6731  |  MeanSim: 0.6060  |  Range: 0.0823
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9443
+       Relevant: 1/4 used, 1/20 total
+
+  [158] q_1772820591_0058
+       Query:    Are reservations necessary for dinner at the fishing lodge-themed restaurant?
+       Intent:   general
+       MaxSim:   0.6237  |  MeanSim: 0.5849  |  Range: 0.0530
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9700
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  3/5
+
+  [159] q_1772820595_0059
+       Query:    Is the Pear Gorgonzola Melt a large serving at this restaurant?
+       Intent:   general
+       MaxSim:   0.5984  |  MeanSim: 0.5502  |  Range: 0.0646
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9657
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [160] q_1772820598_0060
+       Query:    Does this diner offer outdoor seating?
+       Intent:   general
+       MaxSim:   0.6526  |  MeanSim: 0.6158  |  Range: 0.0507
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9823
+       Relevant: 1/4 used, 1/20 total
+
+  [161] q_1772820602_0061
+       Query:    Are there vegetarian options at the Chinese restaurant?
+       Intent:   general
+       MaxSim:   0.6636  |  MeanSim: 0.6189  |  Range: 0.0676
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9776
+       Relevant: 1/4 used, 1/20 total
+       Faith:   3/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [162] q_1772820607_0062
+       Query:    How is the coffee strength at Sips mocha?
+       Intent:   general
+       MaxSim:   0.5854  |  MeanSim: 0.5469  |  Range: 0.0546
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9783
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [163] q_1772820610_0063
+       Query:    Does the Green Project have a parking lot for customers?
+       Intent:   general
+       MaxSim:   0.5526  |  MeanSim: 0.5176  |  Range: 0.0554
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9802
+       Relevant: 0/4 used, 0/20 total
+
+  [164] q_1772820615_0064
+       Query:    Is the sushi served individually at the hibachi restaurant?
+       Intent:   general
+       MaxSim:   0.6754  |  MeanSim: 0.6169  |  Range: 0.0821
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9702
+       Relevant: 2/4 used, 2/20 total
+
+  [165] q_1772820619_0065
+       Query:    Does Value City Furniture offer Broyhill furniture?
+       Intent:   general
+       MaxSim:   0.6555  |  MeanSim: 0.5221  |  Range: 0.1655
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8901
+       Relevant: 1/4 used, 1/20 total
+
+  [166] q_1772820623_0066
+       Query:    What are the prices like at Milktooth for breakfast cocktails?
+       Intent:   aspect
+       MaxSim:   0.7617  |  MeanSim: 0.6297  |  Range: 0.1556
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8810
+       Relevant: 2/5 used, 2/20 total
+
+  [167] q_1772820627_0067
+       Query:    Are there TV stands available in large quantities at Value City?
+       Intent:   general
+       MaxSim:   0.5808  |  MeanSim: 0.5093  |  Range: 0.0958
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9510
+       Relevant: 0/4 used, 0/20 total
+
+  [168] q_1772820631_0068
+       Query:    Is parking readily available near the pizza cookie place?
+       Intent:   general
+       MaxSim:   0.6274  |  MeanSim: 0.5883  |  Range: 0.0561
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9739
+       Relevant: 0/4 used, 0/20 total
+
+  [169] q_1772820634_0069
+       Query:    Is the food tour in New Orleans historically informative?
+       Intent:   aspect
+       MaxSim:   0.7294  |  MeanSim: 0.6084  |  Range: 0.1495
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8959
+       Relevant: 2/5 used, 2/20 total
+
+  [170] q_1772820639_0070
+       Query:    Did Monro Muffler underfill engine oil at Bergeys?
+       Intent:   general
+       MaxSim:   0.6654  |  MeanSim: 0.4803  |  Range: 0.2208
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8053
+       Relevant: 1/4 used, 1/20 total
+
+  [171] q_1772820643_0071
+       Query:    Was the Chippewa tanning deal a bait-and-switch?
+       Intent:   general
+       MaxSim:   0.6636  |  MeanSim: 0.5115  |  Range: 0.1696
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8327
+       Relevant: 1/4 used, 1/20 total
+       Faith:   3/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [172] q_1772820649_0072
+       Query:    Were the ribs served warm and cold at this location?
+       Intent:   general
+       MaxSim:   0.6610  |  MeanSim: 0.6165  |  Range: 0.0578
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9674
+       Relevant: 1/4 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [173] q_1772820653_0073
+       Query:    Is Prep & Pastry breakfast buffet satisfactory?
+       Intent:   general
+       MaxSim:   0.6284  |  MeanSim: 0.5963  |  Range: 0.0479
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9836
+       Relevant: 0/4 used, 0/20 total
+
+  [174] q_1772820658_0074
+       Query:    Is the service quality at Pure Design better than a typical diner?
+       Intent:   aspect
+       MaxSim:   0.6025  |  MeanSim: 0.5847  |  Range: 0.0272
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9911
+       Relevant: 0/5 used, 0/20 total
+
+  [175] q_1772820664_0075
+       Query:    Are the sandwiches at the convenience store deli as good as the Cuban press?
+       Intent:   general
+       MaxSim:   0.7088  |  MeanSim: 0.5895  |  Range: 0.1530
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9206
+       Relevant: 2/4 used, 2/20 total
+
+  [176] q_1772820669_0076
+       Query:    Is the food quality at the local gem better than chain restaurants for dinner?
+       Intent:   aspect
+       MaxSim:   0.6508  |  MeanSim: 0.6222  |  Range: 0.0405
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9739
+       Relevant: 1/5 used, 1/20 total
+
+  [177] q_1772820674_0077
+       Query:    Are the steaks at the oak-grilled restaurant more expensive than diner food prices?
+       Intent:   aspect
+       MaxSim:   0.6223  |  MeanSim: 0.5843  |  Range: 0.0579
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9791
+       Relevant: 0/5 used, 0/20 total
+
+  [178] q_1772820678_0078
+       Query:    Is service faster at fast food places or sit-down restaurants?
+       Intent:   aspect
+       MaxSim:   0.6434  |  MeanSim: 0.6142  |  Range: 0.0516
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9868
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [179] q_1772820684_0079
+       Query:    Does the quality of Chinese takeout compare to dining in?
+       Intent:   general
+       MaxSim:   0.7102  |  MeanSim: 0.6621  |  Range: 0.0698
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9666
+       Relevant: 4/4 used, 13/20 total
+
+  [180] q_1772820690_0080
+       Query:    Are dishes at hole-in-the-wall eateries as good as at upscale restaurants?
+       Intent:   general
+       MaxSim:   0.6198  |  MeanSim: 0.6008  |  Range: 0.0329
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9918
+       Relevant: 0/4 used, 0/20 total
+
+  [181] q_1772820694_0081
+       Query:    Are lunch specials more affordable than regular priced meals?
+       Intent:   aspect
+       MaxSim:   0.6620  |  MeanSim: 0.6162  |  Range: 0.0644
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9789
+       Relevant: 2/5 used, 2/20 total
+
+  [182] q_1772820699_0082
+       Query:    Is the service friendlier at cafes or buffet-style restaurants?
+       Intent:   aspect
+       MaxSim:   0.6443  |  MeanSim: 0.6106  |  Range: 0.0459
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9837
+       Relevant: 0/5 used, 0/20 total
+
+  [183] q_1772820704_0083
+       Query:    Is the service at restaurant A as good as restaurant B?
+       Intent:   aspect
+       MaxSim:   0.6631  |  MeanSim: 0.6400  |  Range: 0.0361
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9896
+       Relevant: 5/5 used, 5/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [184] q_1772820708_0084
+       Query:    Which offers better value for money: lunch or dinner menu at local eateries?
+       Intent:   general
+       MaxSim:   0.6502  |  MeanSim: 0.6209  |  Range: 0.0398
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9832
+       Relevant: 1/4 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [185] q_1772820713_0085
+       Query:    Do newer food trucks have better reviews than established ones?
+       Intent:   aspect
+       MaxSim:   0.6065  |  MeanSim: 0.5793  |  Range: 0.0374
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9788
+       Relevant: 0/5 used, 0/20 total
+
+  [186] q_1772820718_0086
+       Query:    Are takeout options from fine dining restaurants comparable to dine-in quality?
+       Intent:   general
+       MaxSim:   0.6699  |  MeanSim: 0.6283  |  Range: 0.0518
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9631
+       Relevant: 1/4 used, 1/20 total
+
+  [187] q_1772820723_0087
+       Query:    Is the ambiance of a farm-themed restaurant more appealing during autumn compared to spring?
+       Intent:   general
+       MaxSim:   0.5901  |  MeanSim: 0.5460  |  Range: 0.0564
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9649
+       Relevant: 0/4 used, 0/20 total
+
+  [188] q_1772820728_0088
+       Query:    Are meals at Rusty Pelican more expensive than local spots?
+       Intent:   general
+       MaxSim:   0.6437  |  MeanSim: 0.6013  |  Range: 0.0529
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9690
+       Relevant: 0/4 used, 0/20 total
+
+  [189] q_1772820732_0089
+       Query:    Do customers prefer small menus or a wide variety at brunch spots?
+       Intent:   general
+       MaxSim:   0.6522  |  MeanSim: 0.6317  |  Range: 0.0308
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9896
+       Relevant: 1/4 used, 1/20 total
+
+  [190] q_1772820737_0090
+       Query:    Does weekend service outshine weekday service at trendy restaurants?
+       Intent:   aspect
+       MaxSim:   0.6528  |  MeanSim: 0.5979  |  Range: 0.0753
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9603
+       Relevant: 1/5 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [191] q_1772820741_0091
+       Query:    Is the food quality of takeout comparable to dining in at The Local Place?
+       Intent:   aspect
+       MaxSim:   0.6567  |  MeanSim: 0.6433  |  Range: 0.0209
+       P@3:      1.0000  |  P@5:     0.8000  |  P@10:  0.4000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9932
+       Relevant: 4/5 used, 4/20 total
+
+  [192] q_1772820746_0092
+       Query:    Is the quality of dishes at Sweet CeCe's local source better than other locations?
+       Intent:   general
+       MaxSim:   0.6161  |  MeanSim: 0.5931  |  Range: 0.0300
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9811
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [193] q_1772820750_0093
+       Query:    Does Han Dynasty in Old City have a better service compared to the one mentioned in the review?
+       Intent:   aspect
+       MaxSim:   0.6935  |  MeanSim: 0.5865  |  Range: 0.1370
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9093
+       Relevant: 1/5 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [194] q_1772820756_0094
+       Query:    Are the prices at the restaurant offering breakfast with smashed home fries cheaper than Santana's in Camden, NJ?
+       Intent:   aspect
+       MaxSim:   0.6763  |  MeanSim: 0.5868  |  Range: 0.1042
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9032
+       Relevant: 1/5 used, 1/20 total
+
+  [195] q_1772820760_0095
+       Query:    Is the frozen yogurt bar at the monthly favorite eatery as extensive as Starbucks, DD, Micky D's, or others?
+       Intent:   general
+       MaxSim:   0.6311  |  MeanSim: 0.5907  |  Range: 0.0598
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9852
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [196] q_1772820766_0096
+       Query:    Do dishes served at high-priced restaurants like the one with tender steak and perfectly cooked shrimp get better food reviews than budget options?
+       Intent:   aspect
+       MaxSim:   0.6756  |  MeanSim: 0.6524  |  Range: 0.0336
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.9000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9880
+       Relevant: 5/5 used, 9/20 total
+
+  [197] q_1772820771_0097
+       Query:    Is the lunch special better than dinner at Cuban restaurants in the area?
+       Intent:   general
+       MaxSim:   0.6817  |  MeanSim: 0.6182  |  Range: 0.0852
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9593
+       Relevant: 2/4 used, 2/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [198] q_1772820776_0098
+       Query:    Are prices more affordable for barbecue at lunch or dinner?
+       Intent:   aspect
+       MaxSim:   0.6420  |  MeanSim: 0.6115  |  Range: 0.0440
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9801
+       Relevant: 0/5 used, 0/20 total
+
+  [199] q_1772820781_0099
+       Query:    Do dessert spots like the one on Germantown Ave offer a wider variety during weekdays or weekends?
+       Intent:   general
+       MaxSim:   0.6885  |  MeanSim: 0.6299  |  Range: 0.0757
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9602
+       Relevant: 3/4 used, 3/20 total
+
+  [200] q_1772820786_0100
+       Query:    Are reviews of local food spots generally higher than chain restaurants?
+       Intent:   aspect
+       MaxSim:   0.6455  |  MeanSim: 0.6325  |  Range: 0.0197
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9941
+       Relevant: 0/5 used, 0/20 total
+
+  [201] q_1772820793_0101
+       Query:    Is the service speedier for takeout orders compared to dining in at hipster restaurants?
+       Intent:   aspect
+       MaxSim:   0.6577  |  MeanSim: 0.6349  |  Range: 0.0347
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9815
+       Relevant: 1/5 used, 1/20 total
+
+  [202] q_1772820798_0102
+       Query:    Is the coffee spot's ambiance more appealing to an artsy crowd or traditional diners?
+       Intent:   general
+       MaxSim:   0.6386  |  MeanSim: 0.5991  |  Range: 0.0545
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9730
+       Relevant: 0/4 used, 0/20 total
+
+  [203] q_1772820803_0103
+       Query:    Are the gluten-free and vegan options at this restaurant better than other establishments?
+       Intent:   general
+       MaxSim:   0.7129  |  MeanSim: 0.6726  |  Range: 0.0592
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9777
+       Relevant: 4/4 used, 20/20 total
+
+  [204] q_1772820806_0104
+       Query:    Is the service speed at the dance studio faster or slower compared to others?
+       Intent:   aspect
+       MaxSim:   0.5538  |  MeanSim: 0.5175  |  Range: 0.0511
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9751
+       Relevant: 0/5 used, 0/20 total
+
+  [205] q_1772820810_0105
+       Query:    Does Copabanana's outdoor dining offer a more relaxing atmosphere during weekdays or weekends?
+       Intent:   general
+       MaxSim:   0.6087  |  MeanSim: 0.5810  |  Range: 0.0393
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9816
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   2/5  |  Compl:  3/5
+
+  [206] q_1772820815_0106
+       Query:    Are the shrimp dishes at this restaurant rated higher than their steak options?
+       Intent:   general
+       MaxSim:   0.6762  |  MeanSim: 0.6584  |  Range: 0.0266
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9894
+       Relevant: 4/4 used, 19/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [207] q_1772820821_0107
+       Query:    Is the lunch menu at budget restaurants more affordable than dinner?
+       Intent:   general
+       MaxSim:   0.6612  |  MeanSim: 0.6119  |  Range: 0.0679
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9749
+       Relevant: 1/4 used, 1/20 total
+
+  [208] q_1772820827_0108
+       Query:    Do higher-priced dishes get better food reviews than lower-priced options in this restaurant?
+       Intent:   aspect
+       MaxSim:   0.6728  |  MeanSim: 0.6382  |  Range: 0.0465
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9815
+       Relevant: 5/5 used, 5/20 total
+
+  [209] q_1772820832_0109
+       Query:    Are wait times during weekday dine-in service faster compared to weekend brunch?
+       Intent:   aspect
+       MaxSim:   0.6826  |  MeanSim: 0.6199  |  Range: 0.0825
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9573
+       Relevant: 3/5 used, 3/20 total
+
+  [210] q_1772820837_0110
+       Query:    Do family-style restaurants have better ambiance than cafes for group gatherings?
+       Intent:   general
+       MaxSim:   0.6159  |  MeanSim: 0.5832  |  Range: 0.0437
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9707
+       Relevant: 0/4 used, 0/20 total
+
+  [211] q_1772820843_0111
+       Query:    Is takeout service from upscale restaurants as quick as fast food delivery in the same area?
+       Intent:   aspect
+       MaxSim:   0.6532  |  MeanSim: 0.6201  |  Range: 0.0496
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9798
+       Relevant: 1/5 used, 1/20 total
+
+  [212] q_1772820848_0112
+       Query:    Are Upland's burgers and tenderloins better or worse than their pizza?
+       Intent:   general
+       MaxSim:   0.7324  |  MeanSim: 0.5983  |  Range: 0.1578
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8936
+       Relevant: 2/4 used, 2/20 total
+
+  [213] q_1772820852_0113
+       Query:    Do customers prefer Three Stars for food quality over prompt service?
+       Intent:   aspect
+       MaxSim:   0.6785  |  MeanSim: 0.6190  |  Range: 0.0785
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9435
+       Relevant: 1/5 used, 1/20 total
+
+  [214] q_1772820856_0114
+       Query:    Is Panang curry from the sister restaurant as good as the one at this hidden gem in Florissant?
+       Intent:   general
+       MaxSim:   0.7835  |  MeanSim: 0.6169  |  Range: 0.1870
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8508
+       Relevant: 1/4 used, 1/20 total
+
+  [215] q_1772820862_0115
+       Query:    Are prices at the tire shop more affordable than parking fees at high-rated restaurants?
+       Intent:   aspect
+       MaxSim:   0.6021  |  MeanSim: 0.5739  |  Range: 0.0415
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9819
+       Relevant: 0/5 used, 0/20 total
+       Faith:   3/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [216] q_1772820867_0116
+       Query:    Are biscuit-based breakfast sandwiches at local cafes better than chain fast food?
+       Intent:   aspect
+       MaxSim:   0.6246  |  MeanSim: 0.5917  |  Range: 0.0460
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9747
+       Relevant: 0/5 used, 0/20 total
+
+  [217] q_1772820873_0117
+       Query:    Is home-cooked diner food more enjoyable than a gourmet restaurant experience?
+       Intent:   aspect
+       MaxSim:   0.6189  |  MeanSim: 0.5993  |  Range: 0.0298
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9909
+       Relevant: 0/5 used, 0/20 total
+
+  [218] q_1772820877_0118
+       Query:    Which offers faster service: traditional diners or upscale restaurants?
+       Intent:   aspect
+       MaxSim:   0.5988  |  MeanSim: 0.5816  |  Range: 0.0325
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9981
+       Relevant: 0/5 used, 0/20 total
+
+  [219] q_1772820882_0119
+       Query:    Do larger menus result in lower ratings compared to smaller ones?
+       Intent:   general
+       MaxSim:   0.6369  |  MeanSim: 0.5978  |  Range: 0.0537
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9739
+       Relevant: 0/4 used, 0/20 total
+
+  [220] q_1772820886_0120
+       Query:    Are weekend breakfasts at brunch spots more popular than dinner options?
+       Intent:   general
+       MaxSim:   0.6704  |  MeanSim: 0.6232  |  Range: 0.0663
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9788
+       Relevant: 3/4 used, 3/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [221] q_1772820891_0121
+       Query:    Are takeout meals at Han Dynasty as flavorful as dining in?
+       Intent:   general
+       MaxSim:   0.7525  |  MeanSim: 0.6365  |  Range: 0.1605
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.7000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9458
+       Relevant: 4/4 used, 7/20 total
+
+  [222] q_1772820895_0122
+       Query:    Does the weekend service at Beck's Cajun Cafe get slower compared to weekdays?
+       Intent:   aspect
+       MaxSim:   0.6224  |  MeanSim: 0.5770  |  Range: 0.0619
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9638
+       Relevant: 0/5 used, 0/20 total
+
+  [223] q_1772820900_0123
+       Query:    Are the vegan options at this Korean restaurant more popular than non-vegan dishes?
+       Intent:   general
+       MaxSim:   0.6438  |  MeanSim: 0.6140  |  Range: 0.0489
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9875
+       Relevant: 0/4 used, 0/20 total
+
+  [224] q_1772820905_0124
+       Query:    Is the gator sausage in the gumbo better than jambalaya at Beck's Cajun Cafe?
+       Intent:   general
+       MaxSim:   0.7321  |  MeanSim: 0.5871  |  Range: 0.1683
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8744
+       Relevant: 1/4 used, 1/20 total
+
+  [225] q_1772820911_0125
+       Query:    Do chain restaurants like Mid-Atlantic offer a wider variety of dishes compared to local spots?
+       Intent:   general
+       MaxSim:   0.6108  |  MeanSim: 0.5931  |  Range: 0.0256
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9914
+       Relevant: 0/4 used, 0/20 total
+
+  [226] q_1772820915_0126
+       Query:    Is the food at breakfast spot A better than B for lunch?
+       Intent:   aspect
+       MaxSim:   0.6462  |  MeanSim: 0.6138  |  Range: 0.0460
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9744
+       Relevant: 0/5 used, 0/20 total
+
+  [227] q_1772820919_0127
+       Query:    Does restaurant C's service during weekdays compare to weekend service?
+       Intent:   aspect
+       MaxSim:   0.6680  |  MeanSim: 0.6205  |  Range: 0.0694
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9672
+       Relevant: 1/5 used, 1/20 total
+
+  [228] q_1772820924_0128
+       Query:    Are the portions at Chick-fil-A smaller or larger compared to Greek pancake house D?
+       Intent:   general
+       MaxSim:   0.6057  |  MeanSim: 0.5722  |  Range: 0.0523
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9836
+       Relevant: 0/4 used, 0/20 total
+
+  [229] q_1772820928_0129
+       Query:    Which receives more complaints: slow service at restaurant E or overpriced menu items?
+       Intent:   complaint
+       MaxSim:   0.6502  |  MeanSim: 0.6285  |  Range: 0.0371
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9935
+       Relevant: 1/6 used, 1/20 total
+
+  [230] q_1772820932_0130
+       Query:    Is the ambience at milk and honey F cozier than a typical fast food chain?
+       Intent:   aspect
+       MaxSim:   0.6120  |  MeanSim: 0.5715  |  Range: 0.0548
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9653
+       Relevant: 0/5 used, 0/20 total
+
+  [231] q_1772820937_0131
+       Query:    Is In-n-Out's animal style better than Fellini's Cafe's Italian cuisine?
+       Intent:   general
+       MaxSim:   0.6106  |  MeanSim: 0.5567  |  Range: 0.0668
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9506
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   2/5  |  Compl:  3/5
+
+  [232] q_1772820943_0132
+       Query:    Are larger menus at Ghini's more appealing than smaller ones at Vermicelli Bowl House?
+       Intent:   general
+       MaxSim:   0.6633  |  MeanSim: 0.6030  |  Range: 0.0726
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9415
+       Relevant: 1/4 used, 1/20 total
+       Faith:   3/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [233] q_1772820947_0133
+       Query:    Do newer Ghini's management get better reviews than the old one?
+       Intent:   general
+       MaxSim:   0.5695  |  MeanSim: 0.5170  |  Range: 0.0658
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9551
+       Relevant: 0/4 used, 0/20 total
+
+  [234] q_1772820952_0134
+       Query:    Is service speed at In-n-Out comparable to Fellini's Cafe's attentiveness?
+       Intent:   aspect
+       MaxSim:   0.5694  |  MeanSim: 0.5528  |  Range: 0.0239
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9866
+       Relevant: 0/5 used, 0/20 total
+
+  [235] q_1772820957_0135
+       Query:    Are brunch spots' breakfast rated higher than dinner at Ghini's?
+       Intent:   general
+       MaxSim:   0.6194  |  MeanSim: 0.5985  |  Range: 0.0344
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9947
+       Relevant: 0/4 used, 0/20 total
+
+  [236] q_1772820963_0136
+       Query:    Is Fresco's pizza better than Becca's pulled pork?
+       Intent:   general
+       MaxSim:   0.5777  |  MeanSim: 0.5633  |  Range: 0.0262
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9941
+       Relevant: 0/4 used, 0/20 total
+
+  [237] q_1772820968_0137
+       Query:    Which offers better value: Fresco's or the hotel restaurant in Review 4?
+       Intent:   general
+       MaxSim:   0.5944  |  MeanSim: 0.5505  |  Range: 0.0533
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9595
+       Relevant: 0/4 used, 0/20 total
+
+  [238] q_1772820973_0138
+       Query:    Does the service at Becca's outperform that of the hotel bar in Review 4?
+       Intent:   aspect
+       MaxSim:   0.6804  |  MeanSim: 0.6080  |  Range: 0.0900
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9348
+       Relevant: 1/5 used, 1/20 total
+
+  [239] q_1772820983_0139
+       Query:    Is the food quality at Fresco comparable to the delicious sides at the smokehouse (Review 6)?
+       Intent:   aspect
+       MaxSim:   0.6495  |  MeanSim: 0.6023  |  Range: 0.0592
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9529
+       Relevant: 0/5 used, 0/20 total
+
+  [240] q_1772820989_0140
+       Query:    Do slower wait times at Fresco balance with the faster service at Becca's (Review 2)?
+       Intent:   aspect
+       MaxSim:   0.5863  |  MeanSim: 0.5632  |  Range: 0.0312
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9791
+       Relevant: 0/5 used, 0/20 total
+
+  [241] q_1772820994_0141
+       Query:    Are Indian street food dishes at this place better or worse than the Cuban options nearby?
+       Intent:   aspect
+       MaxSim:   0.6865  |  MeanSim: 0.6571  |  Range: 0.0522
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9843
+       Relevant: 5/5 used, 13/20 total
+
+  [242] q_1772820999_0142
+       Query:    Is the quality of gnocchi with marinara superior to the baked eggplant appetizer in terms of taste?
+       Intent:   general
+       MaxSim:   0.6562  |  MeanSim: 0.5990  |  Range: 0.0785
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9748
+       Relevant: 1/4 used, 1/20 total
+
+  [243] q_1772821006_0143
+       Query:    Do breakfast meals served all day get better ratings than lunch specials in family diners?
+       Intent:   general
+       MaxSim:   0.6493  |  MeanSim: 0.5949  |  Range: 0.0677
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9611
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [244] q_1772821010_0144
+       Query:    Are small menu items at this restaurant rated higher than large menu options for variety?
+       Intent:   general
+       MaxSim:   0.6995  |  MeanSim: 0.6540  |  Range: 0.0614
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.9000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9750
+       Relevant: 4/4 used, 9/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  3/5
+
+  [245] q_1772821016_0145
+       Query:    Does the price of diner breakfast match the quality compared to expensive brunch spots?
+       Intent:   aspect
+       MaxSim:   0.6875  |  MeanSim: 0.6290  |  Range: 0.0737
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9473
+       Relevant: 1/5 used, 1/20 total
+
+  [246] q_1772821020_0146
+       Query:    Is the ice cream selection at Village Whiskey as extensive as Los Padres National Forest?
+       Intent:   general
+       MaxSim:   0.6001  |  MeanSim: 0.5482  |  Range: 0.0694
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9633
+       Relevant: 0/4 used, 0/20 total
+
+  [247] q_1772821025_0147
+       Query:    Does the ambience of the restaurant reviewed in Review 7 compare favorably to White Rock at Lopez Lake?
+       Intent:   aspect
+       MaxSim:   0.5910  |  MeanSim: 0.5726  |  Range: 0.0263
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9860
+       Relevant: 0/5 used, 0/20 total
+
+  [248] q_1772821029_0148
+       Query:    What food items are most frequently praised for their flavor in reviews?
+       Intent:   aspect
+       MaxSim:   0.6495  |  MeanSim: 0.6041  |  Range: 0.0597
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9668
+       Relevant: 0/5 used, 0/20 total
+
+  [249] q_1772821034_0149
+       Query:    What common complaints do customers have about service in restaurant reviews?
+       Intent:   complaint
+       MaxSim:   0.6808  |  MeanSim: 0.6481  |  Range: 0.0479
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.7000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9746
+       Relevant: 6/6 used, 7/20 total
+
+  [250] q_1772821041_0150
+       Query:    Which dishes receive the most mentions in negative reviews, and why?
+       Intent:   general
+       MaxSim:   0.6409  |  MeanSim: 0.5948  |  Range: 0.0581
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9584
+       Relevant: 0/4 used, 0/20 total
+
+  [251] q_1772821050_0151
+       Query:    How does the overall sentiment regarding value for money compare across different restaurants?
+       Intent:   general
+       MaxSim:   0.5995  |  MeanSim: 0.5809  |  Range: 0.0262
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9896
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [252] q_1772821058_0152
+       Query:    What patterns emerge when analyzing customer comments on ambience and atmosphere?
+       Intent:   aspect
+       MaxSim:   0.5745  |  MeanSim: 0.5279  |  Range: 0.0578
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9459
+       Relevant: 0/5 used, 0/20 total
+       Faith:   5/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [253] q_1772821062_0153
+       Query:    What common themes do reviewers mention about the ambience at local restaurants?
+       Intent:   aspect
+       MaxSim:   0.6159  |  MeanSim: 0.5941  |  Range: 0.0323
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9884
+       Relevant: 0/5 used, 0/20 total
+
+  [254] q_1772821067_0154
+       Query:    What dishes are frequently praised in positive reviews for their taste?
+       Intent:   general
+       MaxSim:   0.6552  |  MeanSim: 0.6144  |  Range: 0.0513
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9669
+       Relevant: 1/4 used, 1/20 total
+
+  [255] q_1772821073_0155
+       Query:    What service behaviors do customers complain about most often?
+       Intent:   complaint
+       MaxSim:   0.6047  |  MeanSim: 0.5565  |  Range: 0.0609
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9483
+       Relevant: 0/6 used, 0/20 total
+
+  [256] q_1772821079_0156
+       Query:    How do overall ratings compare between restaurants with outdoor seating options?
+       Intent:   general
+       MaxSim:   0.6443  |  MeanSim: 0.6157  |  Range: 0.0401
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9877
+       Relevant: 0/4 used, 0/20 total
+
+  [257] q_1772821083_0157
+       Query:    Are there any specific menu items that receive mixed feedback from reviewers?
+       Intent:   general
+       MaxSim:   0.6969  |  MeanSim: 0.6272  |  Range: 0.0847
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9380
+       Relevant: 1/4 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [258] q_1772821088_0158
+       Query:    What food aspects do customers often praise at Gennaro's?
+       Intent:   aspect
+       MaxSim:   0.6877  |  MeanSim: 0.5903  |  Range: 0.1098
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8968
+       Relevant: 1/5 used, 1/20 total
+
+  [259] q_1772821091_0159
+       Query:    Are parking issues frequently mentioned in one-star restaurant reviews?
+       Intent:   general
+       MaxSim:   0.6348  |  MeanSim: 0.5933  |  Range: 0.0588
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9779
+       Relevant: 0/4 used, 0/20 total
+
+  [260] q_1772821097_0160
+       Query:    What dishes are most commonly mentioned in positive reviews for BBQ restaurants?
+       Intent:   general
+       MaxSim:   0.6524  |  MeanSim: 0.6298  |  Range: 0.0365
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9910
+       Relevant: 1/4 used, 1/20 total
+
+  [261] q_1772821102_0161
+       Query:    How is the service described overall in vegan fast food places?
+       Intent:   aspect
+       MaxSim:   0.6873  |  MeanSim: 0.6383  |  Range: 0.0654
+       P@3:      1.0000  |  P@5:     0.8000  |  P@10:  0.4000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9603
+       Relevant: 4/5 used, 4/20 total
+       Faith:   4/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [262] q_1772821105_0162
+       Query:    In which restaurants do customers often comment on long wait times?
+       Intent:   general
+       MaxSim:   0.6301  |  MeanSim: 0.6143  |  Range: 0.0293
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9954
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  3/5
+
+  [263] q_1772821109_0163
+       Query:    What aspects of ambience do reviewers frequently praise at South Philly restaurants?
+       Intent:   aspect
+       MaxSim:   0.6049  |  MeanSim: 0.5919  |  Range: 0.0250
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9963
+       Relevant: 0/5 used, 0/20 total
+
+  [264] q_1772832784_0164
+       Query:    What service behaviors are often mentioned in positive reviews for university city eateries?
+       Intent:   aspect
+       MaxSim:   0.6275  |  MeanSim: 0.6008  |  Range: 0.0378
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9772
+       Relevant: 0/5 used, 0/20 total
+
+  [265] q_1772832792_0165
+       Query:    What dishes get the most mentions in reviews of cozy bars with unique drinks?
+       Intent:   general
+       MaxSim:   0.6421  |  MeanSim: 0.6145  |  Range: 0.0426
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9909
+       Relevant: 0/4 used, 0/20 total
+
+  [266] q_1772832796_0166
+       Query:    How do customers generally describe the value-for-money at winery/brewery tour venues?
+       Intent:   general
+       MaxSim:   0.6266  |  MeanSim: 0.6080  |  Range: 0.0331
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9922
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [267] q_1772832801_0167
+       Query:    What common complaints do reviewers express about outdoor dining locations?
+       Intent:   complaint
+       MaxSim:   0.6593  |  MeanSim: 0.6193  |  Range: 0.0489
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9600
+       Relevant: 1/6 used, 1/20 total
+
+  [268] q_1772832805_0168
+       Query:    What are the most commonly praised dishes among reviewers?
+       Intent:   general
+       MaxSim:   0.6246  |  MeanSim: 0.6060  |  Range: 0.0299
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9949
+       Relevant: 0/4 used, 0/20 total
+
+  [269] q_1772832810_0169
+       Query:    What are common complaints about dining experience and service?
+       Intent:   complaint
+       MaxSim:   0.6787  |  MeanSim: 0.6493  |  Range: 0.0412
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.8000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9734
+       Relevant: 6/6 used, 8/20 total
+
+  [270] q_1772832815_0170
+       Query:    How do customers rate value for money in five-star restaurants?
+       Intent:   general
+       MaxSim:   0.6151  |  MeanSim: 0.5987  |  Range: 0.0278
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9944
+       Relevant: 0/4 used, 0/20 total
+
+  [271] q_1772832820_0171
+       Query:    Which cuisine types receive the most positive feedback overall?
+       Intent:   general
+       MaxSim:   0.6171  |  MeanSim: 0.5983  |  Range: 0.0270
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9882
+       Relevant: 0/4 used, 0/20 total
+
+  [272] q_1772832826_0172
+       Query:    What aspects of the restaurant interior are most frequently praised?
+       Intent:   general
+       MaxSim:   0.6492  |  MeanSim: 0.6302  |  Range: 0.0266
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9893
+       Relevant: 0/4 used, 0/20 total
+
+  [273] q_1772832832_0173
+       Query:    Which food items receive the most positive mentions in reviews?
+       Intent:   aspect
+       MaxSim:   0.6141  |  MeanSim: 0.5955  |  Range: 0.0275
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9885
+       Relevant: 0/5 used, 0/20 total
+
+  [274] q_1772832836_0174
+       Query:    How often do customers comment on waiting times at restaurants?
+       Intent:   general
+       MaxSim:   0.6419  |  MeanSim: 0.6265  |  Range: 0.0266
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9968
+       Relevant: 0/4 used, 0/20 total
+
+  [275] q_1772832843_0175
+       Query:    What themes appear in reviews about service behaviors and interactions?
+       Intent:   aspect
+       MaxSim:   0.5388  |  MeanSim: 0.5128  |  Range: 0.0351
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9805
+       Relevant: 0/5 used, 0/20 total
+       Faith:   5/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [276] q_1772832848_0176
+       Query:    Do customers feel that the value for money varies between establishments?
+       Intent:   general
+       MaxSim:   0.6129  |  MeanSim: 0.5839  |  Range: 0.0349
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9742
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [277] q_1772832856_0177
+       Query:    What food aspects do customers often praise in Asian restaurants?
+       Intent:   aspect
+       MaxSim:   0.6634  |  MeanSim: 0.6177  |  Range: 0.0575
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9578
+       Relevant: 1/5 used, 1/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  5/5
+
+  [278] q_1772832860_0178
+       Query:    How do customers generally describe the quality of service at fast food establishments?
+       Intent:   aspect
+       MaxSim:   0.6343  |  MeanSim: 0.6014  |  Range: 0.0449
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9753
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [279] q_1772832868_0179
+       Query:    What themes appear most frequently in negative reviews for upscale dining venues?
+       Intent:   general
+       MaxSim:   0.5893  |  MeanSim: 0.5775  |  Range: 0.0192
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9941
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [280] q_1772832874_0180
+       Query:    Which dishes are commonly mentioned as favorites among patrons visiting burger joints?
+       Intent:   general
+       MaxSim:   0.6396  |  MeanSim: 0.6241  |  Range: 0.0270
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9960
+       Relevant: 0/4 used, 0/20 total
+
+  [281] q_1772832879_0181
+       Query:    In what ways do customers comment on value for money at outdoor dining locations?
+       Intent:   general
+       MaxSim:   0.6277  |  MeanSim: 0.6027  |  Range: 0.0337
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9889
+       Relevant: 0/4 used, 0/20 total
+
+  [282] q_1772832884_0182
+       Query:    What aspects of food do customers frequently praise or criticize?
+       Intent:   aspect
+       MaxSim:   0.5981  |  MeanSim: 0.5587  |  Range: 0.0532
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9665
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [283] q_1772832892_0183
+       Query:    What are the most common complaints about restaurant service?
+       Intent:   complaint
+       MaxSim:   0.6646  |  MeanSim: 0.6364  |  Range: 0.0394
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9770
+       Relevant: 2/6 used, 2/20 total
+
+  [284] q_1772832898_0184
+       Query:    Are there trends in customer reviews about ambiance and atmosphere?
+       Intent:   general
+       MaxSim:   0.6047  |  MeanSim: 0.5471  |  Range: 0.0691
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9390
+       Relevant: 0/4 used, 0/20 total
+
+  [285] q_1772832907_0185
+       Query:    Which dishes receive the most positive mentions among various diners?
+       Intent:   general
+       MaxSim:   0.6428  |  MeanSim: 0.6120  |  Range: 0.0430
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9808
+       Relevant: 0/4 used, 0/20 total
+
+  [286] q_1772832913_0186
+       Query:    What aspects of food quality do customers praise most frequently in local restaurants?
+       Intent:   aspect
+       MaxSim:   0.6285  |  MeanSim: 0.6028  |  Range: 0.0352
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9756
+       Relevant: 0/5 used, 0/20 total
+
+  [287] q_1772832920_0187
+       Query:    What are the common complaints about service encounters in dining out experiences?
+       Intent:   complaint
+       MaxSim:   0.6422  |  MeanSim: 0.6302  |  Range: 0.0215
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9950
+       Relevant: 0/6 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  5/5
+
+  [288] q_1772832924_0188
+       Query:    How is the ambience at local restaurants described by reviewers overall?
+       Intent:   aspect
+       MaxSim:   0.6616  |  MeanSim: 0.6397  |  Range: 0.0356
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9934
+       Relevant: 5/5 used, 5/20 total
+
+  [289] q_1772832929_0189
+       Query:    What dishes receive the most positive mentions across multiple reviews?
+       Intent:   general
+       MaxSim:   0.6658  |  MeanSim: 0.6180  |  Range: 0.0605
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9574
+       Relevant: 1/4 used, 1/20 total
+
+  [290] q_1772832934_0190
+       Query:    In what ways do customers describe their experience with the pricing and value for money in restaurants?
+       Intent:   general
+       MaxSim:   0.6358  |  MeanSim: 0.6167  |  Range: 0.0310
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9945
+       Relevant: 0/4 used, 0/20 total
+
+  [291] q_1772832939_0191
+       Query:    What food items receive frequent praise in positive reviews?
+       Intent:   aspect
+       MaxSim:   0.6226  |  MeanSim: 0.6050  |  Range: 0.0280
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9933
+       Relevant: 0/5 used, 0/20 total
+
+  [292] q_1772832947_0192
+       Query:    How do reviewers describe the value for money at various dining establishments?
+       Intent:   general
+       MaxSim:   0.6410  |  MeanSim: 0.6092  |  Range: 0.0408
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9706
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [293] q_1772832951_0193
+       Query:    What themes appear repeatedly in one-star reviews regarding ambience?
+       Intent:   aspect
+       MaxSim:   0.5164  |  MeanSim: 0.4821  |  Range: 0.0452
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9660
+       Relevant: 0/5 used, 0/20 total
+
+  [294] q_1772832959_0194
+       Query:    Which dishes are most frequently mentioned in five-star reviews about Asian cuisine?
+       Intent:   general
+       MaxSim:   0.6104  |  MeanSim: 0.5779  |  Range: 0.0470
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9770
+       Relevant: 0/4 used, 0/20 total
+
+  [295] q_1772832962_0195
+       Query:    What aspects of service receive the most praise in restaurant reviews?
+       Intent:   aspect
+       MaxSim:   0.6348  |  MeanSim: 0.6132  |  Range: 0.0282
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9792
+       Relevant: 0/5 used, 0/20 total
+
+  [296] q_1772832966_0196
+       Query:    Do customers often mention parking issues with local eateries?
+       Intent:   general
+       MaxSim:   0.6267  |  MeanSim: 0.5979  |  Range: 0.0409
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9821
+       Relevant: 0/4 used, 0/20 total
+
+  [297] q_1772832972_0197
+       Query:    What are the most frequently mentioned dishes in positive Asian food reviews?
+       Intent:   aspect
+       MaxSim:   0.6743  |  MeanSim: 0.6319  |  Range: 0.0533
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9584
+       Relevant: 1/5 used, 1/20 total
+
+  [298] q_1772832977_0198
+       Query:    What negative sentiments about ambience arise in dining out experiences?
+       Intent:   aspect
+       MaxSim:   0.6538  |  MeanSim: 0.5933  |  Range: 0.0741
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9358
+       Relevant: 1/5 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [299] q_1772832981_0199
+       Query:    Which dishes are frequently mentioned in positive reviews of Italian restaurants?
+       Intent:   general
+       MaxSim:   0.6452  |  MeanSim: 0.6204  |  Range: 0.0356
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9828
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [300] q_1772832988_0200
+       Query:    What patterns emerge in customer reviews regarding portion sizes and value for money?
+       Intent:   general
+       MaxSim:   0.6279  |  MeanSim: 0.5792  |  Range: 0.0692
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9669
+       Relevant: 0/4 used, 0/20 total
+
+  [301] q_1772832996_0201
+       Query:    How do ambience and atmosphere affect customer satisfaction in fine dining establishments?
+       Intent:   aspect
+       MaxSim:   0.6204  |  MeanSim: 0.5943  |  Range: 0.0399
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9784
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [302] q_1772833002_0202
+       Query:    In one-star reviews, what service behaviors are most commonly criticized?
+       Intent:   aspect
+       MaxSim:   0.5856  |  MeanSim: 0.5487  |  Range: 0.0501
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9682
+       Relevant: 0/5 used, 0/20 total
+
+  [303] q_1772833006_0203
+       Query:    What aspects of service do customers often praise or criticize in local restaurants?
+       Intent:   aspect
+       MaxSim:   0.6172  |  MeanSim: 0.6016  |  Range: 0.0244
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9932
+       Relevant: 0/5 used, 0/20 total
+
+  [304] q_1772833016_0204
+       Query:    Which dishes are most frequently mentioned in reviews with high and low ratings?
+       Intent:   general
+       MaxSim:   0.6157  |  MeanSim: 0.5893  |  Range: 0.0392
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9899
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [305] q_1772833020_0205
+       Query:    Do ambience preferences vary between indoor and outdoor seating options in restaurants?
+       Intent:   aspect
+       MaxSim:   0.6876  |  MeanSim: 0.5867  |  Range: 0.1215
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8979
+       Relevant: 1/5 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [306] q_1772833025_0206
+       Query:    What are the common complaints about parking or accessibility at popular eateries?
+       Intent:   complaint
+       MaxSim:   0.6425  |  MeanSim: 0.5941  |  Range: 0.0619
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9546
+       Relevant: 0/6 used, 0/20 total
+
+  [307] q_1772833029_0207
+       Query:    What do customers frequently praise about the service at local restaurants?
+       Intent:   aspect
+       MaxSim:   0.6546  |  MeanSim: 0.6436  |  Range: 0.0195
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9975
+       Relevant: 5/5 used, 5/20 total
+
+  [308] q_1772833036_0208
+       Query:    Summarize opinions on food quality across various restaurants' reviews.
+       Intent:   aspect
+       MaxSim:   0.6411  |  MeanSim: 0.5925  |  Range: 0.0684
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9630
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [309] q_1772833039_0209
+       Query:    How often is ambience described positively or negatively in restaurant reviews?
+       Intent:   aspect
+       MaxSim:   0.6045  |  MeanSim: 0.5812  |  Range: 0.0394
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9920
+       Relevant: 0/5 used, 0/20 total
+       Faith:   5/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [310] q_1772833047_0210
+       Query:    Which specific dishes receive consistent positive feedback from reviewers?
+       Intent:   general
+       MaxSim:   0.6436  |  MeanSim: 0.6061  |  Range: 0.0542
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9904
+       Relevant: 0/4 used, 0/20 total
+
+  [311] q_1772833053_0211
+       Query:    What aspects of food are most often described as "amazing" or "delicious" in reviews?
+       Intent:   aspect
+       MaxSim:   0.6056  |  MeanSim: 0.5879  |  Range: 0.0268
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9876
+       Relevant: 0/5 used, 0/20 total
+
+  [312] q_1772833057_0212
+       Query:    How frequently do customers mention poor service experiences at casual restaurants?
+       Intent:   aspect
+       MaxSim:   0.6641  |  MeanSim: 0.6322  |  Range: 0.0447
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9792
+       Relevant: 3/5 used, 3/20 total
+
+  [313] q_1772833062_0213
+       Query:    What themes appear in reviews about the quality and size of portions?
+       Intent:   general
+       MaxSim:   0.6162  |  MeanSim: 0.5848  |  Range: 0.0461
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9768
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [314] q_1772833066_0214
+       Query:    Do reviewers often mention specific dishes that stand out positively in upscale establishments?
+       Intent:   general
+       MaxSim:   0.6467  |  MeanSim: 0.6188  |  Range: 0.0386
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9798
+       Relevant: 0/4 used, 0/20 total
+
+  [315] q_1772833070_0215
+       Query:    What themes appear repeatedly in one-star restaurant reviews related to food quality?
+       Intent:   aspect
+       MaxSim:   0.5970  |  MeanSim: 0.5763  |  Range: 0.0308
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9862
+       Relevant: 0/5 used, 0/20 total
+
+  [316] q_1772833074_0216
+       Query:    In what aspects of ambience do reviewers often remark positively or negatively?
+       Intent:   aspect
+       MaxSim:   0.5484  |  MeanSim: 0.5209  |  Range: 0.0419
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9875
+       Relevant: 0/5 used, 0/20 total
+
+  [317] q_1772833078_0217
+       Query:    What are the most frequent comments about service quality in reviews?
+       Intent:   aspect
+       MaxSim:   0.6063  |  MeanSim: 0.5581  |  Range: 0.0646
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9607
+       Relevant: 0/5 used, 0/20 total
+
+  [318] q_1772833084_0218
+       Query:    How do customers rate the variety of food offerings across multiple restaurants?
+       Intent:   aspect
+       MaxSim:   0.6361  |  MeanSim: 0.6173  |  Range: 0.0269
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9835
+       Relevant: 0/5 used, 0/20 total
+       Faith:   5/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [319] q_1772833089_0219
+       Query:    Which dishes receive consistent praise for presentation and taste?
+       Intent:   general
+       MaxSim:   0.6665  |  MeanSim: 0.6204  |  Range: 0.0616
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9692
+       Relevant: 1/4 used, 1/20 total
+
+  [320] q_1772833094_0220
+       Query:    What is the general sentiment towards parking difficulties at local eateries?
+       Intent:   general
+       MaxSim:   0.6438  |  MeanSim: 0.5915  |  Range: 0.0635
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9534
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [321] q_1772833099_0221
+       Query:    In what ways do customers describe the ambience in their favorite dining spots?
+       Intent:   aspect
+       MaxSim:   0.6380  |  MeanSim: 0.6028  |  Range: 0.0432
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9679
+       Relevant: 0/5 used, 0/20 total
+
+  [322] q_1772833105_0222
+       Query:    What dishes are most frequently praised in American restaurants?
+       Intent:   general
+       MaxSim:   0.6400  |  MeanSim: 0.6140  |  Range: 0.0350
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9823
+       Relevant: 0/4 used, 0/20 total
+
+  [323] q_1772833109_0223
+       Query:    What unique Senegalese dishes have reviewers found delightful at hidden gem restaurants?
+       Intent:   general
+       MaxSim:   0.6801  |  MeanSim: 0.5962  |  Range: 0.1032
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9433
+       Relevant: 1/4 used, 1/20 total
+
+  [324] q_1772836765_0224
+       Query:    Can you suggest local food spots in Camden NJ that tourists often miss?
+       Intent:   recommendation
+       MaxSim:   0.6445  |  MeanSim: 0.6186  |  Range: 0.0396
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9760
+       Relevant: 0/8 used, 0/20 total
+
+  [325] q_1772836770_0225
+       Query:    Which coffee shops offer exceptional espresso and a relaxing atmosphere?
+       Intent:   general
+       MaxSim:   0.6839  |  MeanSim: 0.6274  |  Range: 0.0798
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9625
+       Relevant: 2/4 used, 2/20 total
+
+  [326] q_1772836775_0226
+       Query:    What are some affordable eateries with surprisingly great service?
+       Intent:   aspect
+       MaxSim:   0.6949  |  MeanSim: 0.6723  |  Range: 0.0315
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9849
+       Relevant: 5/5 used, 20/20 total
+
+  [327] q_1772836780_0227
+       Query:    Are there underrated places in Woodland Avenue known for their West African cuisine?
+       Intent:   general
+       MaxSim:   0.6826  |  MeanSim: 0.5828  |  Range: 0.1154
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9090
+       Relevant: 1/4 used, 1/20 total
+
+  [328] q_1772836785_0228
+       Query:    What are some overlooked Mediterranean dishes that have garnered unexpected praise?
+       Intent:   general
+       MaxSim:   0.6483  |  MeanSim: 0.6251  |  Range: 0.0358
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9905
+       Relevant: 0/4 used, 0/20 total
+
+  [329] q_1772836790_0229
+       Query:    Which restaurants in Camden, NJ offer an exceptional breakfast experience?
+       Intent:   general
+       MaxSim:   0.6474  |  MeanSim: 0.6252  |  Range: 0.0343
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9888
+       Relevant: 0/4 used, 0/20 total
+
+  [330] q_1772836796_0230
+       Query:    Can you share some unique food items served at the Smoothie King Center?
+       Intent:   aspect
+       MaxSim:   0.6199  |  MeanSim: 0.5857  |  Range: 0.0430
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9673
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [331] q_1772836802_0231
+       Query:    What hidden gems offer excellent sushi options in towns with limited choices?
+       Intent:   general
+       MaxSim:   0.6950  |  MeanSim: 0.6619  |  Range: 0.0402
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9694
+       Relevant: 4/4 used, 20/20 total
+
+  [332] q_1772836807_0232
+       Query:    Which affordable eateries serve dishes that exceed expectations in terms of quality and taste?
+       Intent:   general
+       MaxSim:   0.6359  |  MeanSim: 0.6121  |  Range: 0.0323
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9805
+       Relevant: 0/4 used, 0/20 total
+
+  [333] q_1772836812_0233
+       Query:    What unusual food items have been paired unexpectedly well in reviews?
+       Intent:   aspect
+       MaxSim:   0.6050  |  MeanSim: 0.5939  |  Range: 0.0176
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9935
+       Relevant: 0/5 used, 0/20 total
+
+  [334] q_1772836816_0234
+       Query:    Which restaurants offer great value with affordable pricing, despite a high-end ambiance?
+       Intent:   general
+       MaxSim:   0.6694  |  MeanSim: 0.6216  |  Range: 0.0634
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9837
+       Relevant: 3/4 used, 3/20 total
+
+  [335] q_1772836826_0235
+       Query:    Describe unique dining experiences where service exceeded expectations significantly.
+       Intent:   aspect
+       MaxSim:   0.6816  |  MeanSim: 0.6471  |  Range: 0.0467
+       P@3:      1.0000  |  P@5:     0.8000  |  P@10:  0.4000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9764
+       Relevant: 4/5 used, 4/20 total
+
+  [336] q_1772836831_0236
+       Query:    Which local eateries have hidden parking solutions or easy access that reviewers appreciate?
+       Intent:   general
+       MaxSim:   0.6594  |  MeanSim: 0.6173  |  Range: 0.0553
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9693
+       Relevant: 1/4 used, 1/20 total
+       Faith:   3/5  |  Relev:   3/5  |  Compl:  3/5
+
+  [337] q_1772836837_0237
+       Query:    What underappreciated desserts are worth exploring in food reviews, beyond the typical favorites?
+       Intent:   aspect
+       MaxSim:   0.6482  |  MeanSim: 0.6258  |  Range: 0.0348
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9902
+       Relevant: 0/5 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [338] q_1772836843_0238
+       Query:    What unique, off-the-beaten-path restaurants serve exceptional wings?
+       Intent:   general
+       MaxSim:   0.6688  |  MeanSim: 0.6352  |  Range: 0.0591
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9850
+       Relevant: 3/4 used, 3/20 total
+
+  [339] q_1772836846_0239
+       Query:    Which overlooked places offer surprising and high-quality boozy shakes?
+       Intent:   general
+       MaxSim:   0.6522  |  MeanSim: 0.5997  |  Range: 0.0646
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9513
+       Relevant: 1/4 used, 1/20 total
+
+  [340] q_1772836851_0240
+       Query:    Can you find reviews of quirky dishes served with a memorable ambience?
+       Intent:   aspect
+       MaxSim:   0.6646  |  MeanSim: 0.6240  |  Range: 0.0483
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9568
+       Relevant: 1/5 used, 1/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [341] q_1772836857_0241
+       Query:    What are some hidden gems with reasonable prices that provide exceptional service?
+       Intent:   aspect
+       MaxSim:   0.6770  |  MeanSim: 0.6199  |  Range: 0.0685
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9457
+       Relevant: 1/5 used, 1/20 total
+
+  [342] q_1772836862_0242
+       Query:    Are there underappreciated spots offering creative menu items that fill customers?
+       Intent:   general
+       MaxSim:   0.6783  |  MeanSim: 0.6488  |  Range: 0.0397
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.8000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9800
+       Relevant: 4/4 used, 8/20 total
+
+  [343] q_1772836866_0243
+       Query:    What hidden gem restaurants have regular patrons that rave about their unique zucchini muffins?
+       Intent:   general
+       MaxSim:   0.6508  |  MeanSim: 0.5798  |  Range: 0.0894
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9457
+       Relevant: 1/4 used, 1/20 total
+
+  [344] q_1772836873_0244
+       Query:    Can you find unusual food pairings in industrial areas that reviewers were pleasantly surprised by?
+       Intent:   aspect
+       MaxSim:   0.6412  |  MeanSim: 0.5944  |  Range: 0.0562
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9519
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [345] q_1772836881_0245
+       Query:    Describe memorable dining experiences involving authentic Indian street food, as reported by multiple reviewers.
+       Intent:   aspect
+       MaxSim:   0.6410  |  MeanSim: 0.5997  |  Range: 0.0590
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9714
+       Relevant: 0/5 used, 0/20 total
+
+  [346] q_1772836886_0246
+       Query:    Which budget-friendly restaurants offer exceptional service and a fantastic frozen yogurt bar?
+       Intent:   aspect
+       MaxSim:   0.6622  |  MeanSim: 0.6229  |  Range: 0.0543
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9737
+       Relevant: 1/5 used, 1/20 total
+
+  [347] q_1772836893_0247
+       Query:    What unusual dishes have reviewers been pleasantly surprised by in historic restaurants?
+       Intent:   general
+       MaxSim:   0.6544  |  MeanSim: 0.6277  |  Range: 0.0365
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9910
+       Relevant: 2/4 used, 2/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [348] q_1772836900_0248
+       Query:    Can you recommend hidden gem cafes with exceptional service for a quiet afternoon outing?
+       Intent:   recommendation
+       MaxSim:   0.6716  |  MeanSim: 0.6163  |  Range: 0.0720
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9384
+       Relevant: 1/8 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [349] q_1772836905_0249
+       Query:    Which affordable eateries offer an unexpectedly comfortable environment for long meals?
+       Intent:   general
+       MaxSim:   0.6227  |  MeanSim: 0.6048  |  Range: 0.0259
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9865
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [350] q_1772836912_0250
+       Query:    What underrated food trucks serve creative and innovative menu items worth seeking out?
+       Intent:   aspect
+       MaxSim:   0.6730  |  MeanSim: 0.6107  |  Range: 0.0765
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9405
+       Relevant: 1/5 used, 1/20 total
+
+  [351] q_1772836917_0251
+       Query:    Are there any restaurants with interesting decor that reviewers find themselves returning to often?
+       Intent:   general
+       MaxSim:   0.6414  |  MeanSim: 0.6216  |  Range: 0.0289
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9907
+       Relevant: 0/4 used, 0/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [352] q_1772836922_0252
+       Query:    What quirky Mexican dishes in Pennsylvanian restaurants have customers raved about?
+       Intent:   general
+       MaxSim:   0.6776  |  MeanSim: 0.6175  |  Range: 0.0764
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9462
+       Relevant: 1/4 used, 1/20 total
+
+  [353] q_1772836927_0253
+       Query:    Can you uncover exceptional management companies that prioritize unique requests like SRS?
+       Intent:   general
+       MaxSim:   0.7615  |  MeanSim: 0.4960  |  Range: 0.2917
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.7565
+       Relevant: 1/4 used, 1/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  3/5
+
+  [354] q_1772836931_0254
+       Query:    What lesser-known delis offer extensive menu options for lunch hour patrons?
+       Intent:   general
+       MaxSim:   0.6070  |  MeanSim: 0.5789  |  Range: 0.0427
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9850
+       Relevant: 0/4 used, 0/20 total
+
+  [355] q_1772836936_0255
+       Query:    Are there hidden gems among the ice cream shops with surprising milkshake offerings?
+       Intent:   general
+       MaxSim:   0.6483  |  MeanSim: 0.6129  |  Range: 0.0467
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9741
+       Relevant: 0/4 used, 0/20 total
+
+  [356] q_1772836941_0256
+       Query:    What local spots do tourists often overlook, despite glowing recommendations from locals?
+       Intent:   recommendation
+       MaxSim:   0.5715  |  MeanSim: 0.5537  |  Range: 0.0299
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9892
+       Relevant: 0/8 used, 0/20 total
+
+  [357] q_1772836947_0257
+       Query:    What underrated food items have surprised customers in local eateries?
+       Intent:   aspect
+       MaxSim:   0.6440  |  MeanSim: 0.6133  |  Range: 0.0408
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9719
+       Relevant: 0/5 used, 0/20 total
+
+  [358] q_1772836955_0258
+       Query:    Which restaurants offer memorable dining experiences with exceptional ambience?
+       Intent:   aspect
+       MaxSim:   0.6719  |  MeanSim: 0.6532  |  Range: 0.0297
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9886
+       Relevant: 5/5 used, 12/20 total
+
+  [359] q_1772836962_0259
+       Query:    Can you find some hidden gem bistros known for their excellent service and price value?
+       Intent:   aspect
+       MaxSim:   0.7122  |  MeanSim: 0.6479  |  Range: 0.0779
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9412
+       Relevant: 5/5 used, 5/20 total
+
+  [360] q_1772836969_0260
+       Query:    Are there any unusual dishes that customers rave about, beyond the menu's highlights?
+       Intent:   general
+       MaxSim:   0.6445  |  MeanSim: 0.6208  |  Range: 0.0352
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9852
+       Relevant: 0/4 used, 0/20 total
+
+  [361] q_1772836974_0261
+       Query:    What are the average-looking places that deliver unexpectedly great food or service?
+       Intent:   aspect
+       MaxSim:   0.6467  |  MeanSim: 0.6314  |  Range: 0.0241
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9897
+       Relevant: 0/5 used, 0/20 total
+
+  [362] q_1772836979_0262
+       Query:    What are the most charming restaurants with exceptional ambience?
+       Intent:   aspect
+       MaxSim:   0.6806  |  MeanSim: 0.6385  |  Range: 0.0530
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9615
+       Relevant: 2/5 used, 2/20 total
+
+  [363] q_1772836987_0263
+       Query:    Can you suggest some hidden gem bakeries offering unique desserts?
+       Intent:   recommendation
+       MaxSim:   0.6625  |  MeanSim: 0.6287  |  Range: 0.0487
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9700
+       Relevant: 3/8 used, 3/20 total
+
+  [364] q_1772836992_0264
+       Query:    What lesser-known food items have customers been pleasantly surprised to find?
+       Intent:   aspect
+       MaxSim:   0.6301  |  MeanSim: 0.5910  |  Range: 0.0498
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9630
+       Relevant: 0/5 used, 0/20 total
+
+  [365] q_1772836997_0265
+       Query:    Which restaurants provide a memorable experience despite long wait times?
+       Intent:   general
+       MaxSim:   0.6725  |  MeanSim: 0.6492  |  Range: 0.0368
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.6000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9902
+       Relevant: 4/4 used, 6/20 total
+
+  [366] q_1772837003_0266
+       Query:    What affordable eateries serve high-quality dishes that exceed expectations?
+       Intent:   general
+       MaxSim:   0.6387  |  MeanSim: 0.6091  |  Range: 0.0379
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9760
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [367] q_1772837007_0267
+       Query:    What unique dishes have long wait times led customers to appreciate more?
+       Intent:   general
+       MaxSim:   0.6498  |  MeanSim: 0.6166  |  Range: 0.0443
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9775
+       Relevant: 0/4 used, 0/20 total
+
+  [368] q_1772837015_0268
+       Query:    Can you suggest some underrated restaurants with excellent service and ambience?
+       Intent:   recommendation
+       MaxSim:   0.7346  |  MeanSim: 0.6881  |  Range: 0.0577
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9527
+       Relevant: 8/8 used, 20/20 total
+
+  [369] q_1772837023_0269
+       Query:    What hidden gems offer surprisingly affordable prices for a quality dining experience?
+       Intent:   aspect
+       MaxSim:   0.6890  |  MeanSim: 0.6461  |  Range: 0.0566
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.5000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9650
+       Relevant: 5/5 used, 5/20 total
+
+  [370] q_1772837029_0270
+       Query:    Are there any unusual food items that became unexpected favorites despite initial skepticism?
+       Intent:   aspect
+       MaxSim:   0.6415  |  MeanSim: 0.6182  |  Range: 0.0367
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9855
+       Relevant: 0/5 used, 0/20 total
+
+  [371] q_1772842174_0271
+       Query:    Which restaurants have reviewers described as transforming their dining experiences in unexpected ways?
+       Intent:   general
+       MaxSim:   0.5983  |  MeanSim: 0.5792  |  Range: 0.0261
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9876
+       Relevant: 0/4 used, 0/20 total
+
+  [372] q_1772842181_0272
+       Query:    What hidden gems offer unexpectedly good food for the price?
+       Intent:   aspect
+       MaxSim:   0.6976  |  MeanSim: 0.6499  |  Range: 0.0605
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.8000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9600
+       Relevant: 5/5 used, 8/20 total
+
+  [373] q_1772842186_0273
+       Query:    Can you find restaurants with devoted loyal customers and a quirky ambiance?
+       Intent:   general
+       MaxSim:   0.6180  |  MeanSim: 0.6026  |  Range: 0.0226
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9926
+       Relevant: 0/4 used, 0/20 total
+
+  [374] q_1772842194_0274
+       Query:    What are some underrated dishes that have surprised diners despite average-looking menus?
+       Intent:   general
+       MaxSim:   0.6343  |  MeanSim: 0.6087  |  Range: 0.0341
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9824
+       Relevant: 0/4 used, 0/20 total
+
+  [375] q_1772842199_0275
+       Query:    Are there overlooked eateries with remarkable service and long wait times worth it?
+       Intent:   aspect
+       MaxSim:   0.6766  |  MeanSim: 0.6572  |  Range: 0.0296
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9877
+       Relevant: 5/5 used, 16/20 total
+
+  [376] q_1772842205_0276
+       Query:    Which places offer unique dining experiences combining bougie and casual atmospheres?
+       Intent:   general
+       MaxSim:   0.6617  |  MeanSim: 0.6118  |  Range: 0.0601
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9542
+       Relevant: 1/4 used, 1/20 total
+
+  [377] q_1772842210_0277
+       Query:    What hidden gem restaurants in the area have been discovered for their unique outdoor experiences?
+       Intent:   general
+       MaxSim:   0.6630  |  MeanSim: 0.6195  |  Range: 0.0614
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9792
+       Relevant: 2/4 used, 2/20 total
+
+  [378] q_1772842215_0278
+       Query:    Which quirky food items have reviewers been pleasantly surprised to find on an average-looking menu?
+       Intent:   aspect
+       MaxSim:   0.6235  |  MeanSim: 0.5944  |  Range: 0.0412
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9765
+       Relevant: 0/5 used, 0/20 total
+
+  [379] q_1772842226_0279
+       Query:    Can you share memorable dining experiences that were elevated by exceptional service?
+       Intent:   aspect
+       MaxSim:   0.6914  |  MeanSim: 0.6531  |  Range: 0.0524
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  0.7000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9779
+       Relevant: 5/5 used, 7/20 total
+
+  [380] q_1772842234_0280
+       Query:    Are there any underappreciated, high-quality restaurants with reasonable pricing deserving attention?
+       Intent:   general
+       MaxSim:   0.6885  |  MeanSim: 0.6619  |  Range: 0.0349
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9827
+       Relevant: 4/4 used, 20/20 total
+
+  [381] q_1772842241_0281
+       Query:    What underrated places offer unusual ambience that locals love but tourists might miss?
+       Intent:   aspect
+       MaxSim:   0.6405  |  MeanSim: 0.5732  |  Range: 0.0830
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9348
+       Relevant: 0/5 used, 0/20 total
+
+  [382] q_1772842246_0282
+       Query:    What hidden gems offer exceptional smoothies and fresh bread?
+       Intent:   general
+       MaxSim:   0.7179  |  MeanSim: 0.6211  |  Range: 0.1127
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9162
+       Relevant: 1/4 used, 1/20 total
+
+  [383] q_1772842258_0283
+       Query:    Can you recommend memorable dining experiences with unique bourbon libations?
+       Intent:   recommendation
+       MaxSim:   0.6601  |  MeanSim: 0.6298  |  Range: 0.0428
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9711
+       Relevant: 3/8 used, 3/20 total
+       Faith:   5/5  |  Relev:   5/5  |  Compl:  4/5
+
+  [384] q_1772842263_0284
+       Query:    Which restaurants consistently exceed expectations despite average appearances?
+       Intent:   general
+       MaxSim:   0.6021  |  MeanSim: 0.5853  |  Range: 0.0258
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9950
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [385] q_1772842269_0285
+       Query:    What underrated places serve creatively presented grits and grillades?
+       Intent:   general
+       MaxSim:   0.6565  |  MeanSim: 0.6210  |  Range: 0.0592
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9824
+       Relevant: 1/4 used, 1/20 total
+
+  [386] q_1772842277_0286
+       Query:    What local favorites do tourists often overlook in New Orleans food scene?
+       Intent:   aspect
+       MaxSim:   0.6589  |  MeanSim: 0.6102  |  Range: 0.0640
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9614
+       Relevant: 1/5 used, 1/20 total
+
+  [387] q_1772842282_0287
+       Query:    What unique and lesser-known food items have customers praised at University City restaurants?
+       Intent:   aspect
+       MaxSim:   0.6377  |  MeanSim: 0.6102  |  Range: 0.0388
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9800
+       Relevant: 0/5 used, 0/20 total
+
+  [388] q_1772842289_0288
+       Query:    Which hidden gem Italian eateries in South Philly offer unexpected warmth and homely atmosphere?
+       Intent:   general
+       MaxSim:   0.6620  |  MeanSim: 0.6017  |  Range: 0.0797
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9648
+       Relevant: 2/4 used, 2/20 total
+
+  [389] q_1772842296_0289
+       Query:    Are there underappreciated Korean restaurants in the city known for their custom soondubu stews?
+       Intent:   general
+       MaxSim:   0.6442  |  MeanSim: 0.6000  |  Range: 0.0682
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9728
+       Relevant: 0/4 used, 0/20 total
+
+  [390] q_1772842304_0290
+       Query:    What quirky fusion cuisine combinations have surprised diners at Philly's Mexican establishments?
+       Intent:   general
+       MaxSim:   0.5972  |  MeanSim: 0.5719  |  Range: 0.0386
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9863
+       Relevant: 0/4 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [391] q_1772842308_0291
+       Query:    Can you identify restaurants with exceptionally long wait times but still worth the patience due to their food quality?
+       Intent:   aspect
+       MaxSim:   0.6770  |  MeanSim: 0.6508  |  Range: 0.0406
+       P@3:      1.0000  |  P@5:     1.0000  |  P@10:  1.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9860
+       Relevant: 5/5 used, 10/20 total
+
+  [392] q_1772842315_0292
+       Query:    What underrated hidden gems serve unique English-themed dishes?
+       Intent:   general
+       MaxSim:   0.6895  |  MeanSim: 0.5876  |  Range: 0.1146
+       P@3:      0.3333  |  P@5:     0.2000  |  P@10:  0.1000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.8968
+       Relevant: 1/4 used, 1/20 total
+       Faith:   5/5  |  Relev:   2/5  |  Compl:  2/5
+
+  [393] q_1772842319_0293
+       Query:    Which restaurants have surprisingly affordable prices despite a cozy ambience?
+       Intent:   aspect
+       MaxSim:   0.6377  |  MeanSim: 0.6109  |  Range: 0.0353
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9767
+       Relevant: 0/5 used, 0/20 total
+
+  [394] q_1772842329_0294
+       Query:    Can you identify creative menu items that are worth the steep price tag?
+       Intent:   aspect
+       MaxSim:   0.6229  |  MeanSim: 0.5998  |  Range: 0.0359
+       P@3:      0.0000  |  P@5:     0.0000  |  P@10:  0.0000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      0.0000  |  HitR@5:  0.0      |  Conf:   0.9874
+       Relevant: 0/5 used, 0/20 total
+       Faith:   4/5  |  Relev:   4/5  |  Compl:  4/5
+
+  [395] q_1772842334_0295
+       Query:    Are there any local favorites with notable loyal customer bases for organic produce?
+       Intent:   general
+       MaxSim:   0.6634  |  MeanSim: 0.6071  |  Range: 0.0755
+       P@3:      1.0000  |  P@5:     0.6000  |  P@10:  0.3000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9714
+       Relevant: 3/4 used, 3/20 total
+
+  [396] q_1772842340_0296
+       Query:    What underappreciated spots offer efficient waitlist services for weekend dining?
+       Intent:   aspect
+       MaxSim:   0.6604  |  MeanSim: 0.6332  |  Range: 0.0385
+       P@3:      0.6667  |  P@5:     0.4000  |  P@10:  0.2000
+       NDCG@5:   1.0000  |  NDCG@10: 1.0000  |  NDCG@20: 1.0000
+       MRR:      1.0000  |  HitR@5:  1.0      |  Conf:   0.9829
+       Relevant: 2/5 used, 2/20 total
+
+======================================================================
+  END OF REPORT
+======================================================================

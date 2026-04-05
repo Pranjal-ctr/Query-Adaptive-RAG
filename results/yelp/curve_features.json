@@ -1,0 +1,902 @@
+[
+  {
+    "kurtosis": 0.8567,
+    "entropy": 2.4792,
+    "slope": -0.008668,
+    "score_range": 0.1008,
+    "query_id": "q_1772135703_0001",
+    "query_text": "What are the best restaurants for a date night?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 3.6081,
+    "entropy": 2.6364,
+    "slope": -0.00354,
+    "score_range": 0.0527,
+    "query_id": "q_1772135712_0002",
+    "query_text": "Can you recommend a place with great pizza?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 0.062,
+    "entropy": 2.6252,
+    "slope": -0.004737,
+    "score_range": 0.056,
+    "query_id": "q_1772135720_0003",
+    "query_text": "Suggest a restaurant with good vegetarian options",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 2.4455,
+    "entropy": 2.6378,
+    "slope": -0.00405,
+    "score_range": 0.0565,
+    "query_id": "q_1772135727_0004",
+    "query_text": "Which place has the best burgers?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 0.5689,
+    "entropy": 2.5897,
+    "slope": -0.004195,
+    "score_range": 0.0515,
+    "query_id": "q_1772135733_0005",
+    "query_text": "Recommend a good brunch spot",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 0.6869,
+    "entropy": 2.6565,
+    "slope": -0.005037,
+    "score_range": 0.0732,
+    "query_id": "q_1772135742_0006",
+    "query_text": "What's the best place for seafood?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 0.1805,
+    "entropy": 2.6402,
+    "slope": -0.006328,
+    "score_range": 0.0974,
+    "query_id": "q_1772135747_0007",
+    "query_text": "Where should I go for authentic Mexican food?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": 2.4615,
+    "entropy": 2.6218,
+    "slope": -0.0029,
+    "score_range": 0.044,
+    "query_id": "q_1772135753_0008",
+    "query_text": "Recommend a restaurant for a family dinner",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": -0.93,
+    "entropy": 2.6305,
+    "slope": -0.003236,
+    "score_range": 0.0431,
+    "query_id": "q_1772135759_0009",
+    "query_text": "What's the best spot for a quick lunch?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 0.2139,
+    "entropy": 2.6122,
+    "slope": -0.003155,
+    "score_range": 0.0426,
+    "query_id": "q_1772135767_0010",
+    "query_text": "Suggest a place with amazing desserts",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 0.2633,
+    "entropy": 2.4894,
+    "slope": -0.004658,
+    "score_range": 0.0606,
+    "query_id": "q_1772135773_0011",
+    "query_text": "Where can I get the best sushi?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 0.4553,
+    "entropy": 2.6866,
+    "slope": -0.002969,
+    "score_range": 0.0523,
+    "query_id": "q_1772135778_0012",
+    "query_text": "Recommend a cozy cafe for coffee",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 0.2128,
+    "entropy": 2.6438,
+    "slope": -0.004323,
+    "score_range": 0.0539,
+    "query_id": "q_1772135789_0013",
+    "query_text": "What's the best barbecue restaurant?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 5.7609,
+    "entropy": 2.4383,
+    "slope": -0.004425,
+    "score_range": 0.0595,
+    "query_id": "q_1772135795_0014",
+    "query_text": "Suggest a restaurant with healthy food options",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": -0.6793,
+    "entropy": 2.5974,
+    "slope": -0.003533,
+    "score_range": 0.0403,
+    "query_id": "q_1772135802_0015",
+    "query_text": "Where should I go for the best breakfast?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 1.6394,
+    "entropy": 2.6489,
+    "slope": -0.004541,
+    "score_range": 0.0623,
+    "query_id": "q_1772135807_0016",
+    "query_text": "What are common complaints about slow service?",
+    "intent": "complaint"
+  },
+  {
+    "kurtosis": -0.7154,
+    "entropy": 2.5827,
+    "slope": -0.002643,
+    "score_range": 0.0366,
+    "query_id": "q_1772135812_0017",
+    "query_text": "Which restaurants have bad food quality?",
+    "intent": "complaint"
+  },
+  {
+    "kurtosis": 0.4245,
+    "entropy": 2.4162,
+    "slope": -0.004261,
+    "score_range": 0.0429,
+    "query_id": "q_1772135817_0018",
+    "query_text": "What do people dislike about expensive restaurants?",
+    "intent": "complaint"
+  },
+  {
+    "kurtosis": 0.5042,
+    "entropy": 2.5399,
+    "slope": -0.002131,
+    "score_range": 0.035,
+    "query_id": "q_1772135822_0019",
+    "query_text": "Tell me about restaurants with rude staff",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.9147,
+    "entropy": 2.5491,
+    "slope": -0.004865,
+    "score_range": 0.0617,
+    "query_id": "q_1772135829_0020",
+    "query_text": "What are the worst dining experiences?",
+    "intent": "complaint"
+  },
+  {
+    "kurtosis": -0.069,
+    "entropy": 2.4214,
+    "slope": -0.003695,
+    "score_range": 0.0367,
+    "query_id": "q_1772135834_0021",
+    "query_text": "What do people complain about regarding cold food?",
+    "intent": "complaint"
+  },
+  {
+    "kurtosis": 0.7279,
+    "entropy": 2.6883,
+    "slope": -0.002504,
+    "score_range": 0.0367,
+    "query_id": "q_1772135838_0022",
+    "query_text": "Which places have the most negative reviews?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.9983,
+    "entropy": 2.5591,
+    "slope": -0.003937,
+    "score_range": 0.0456,
+    "query_id": "q_1772135844_0023",
+    "query_text": "What restaurants have hygiene problems?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.1717,
+    "entropy": 2.5879,
+    "slope": -0.003148,
+    "score_range": 0.0433,
+    "query_id": "q_1772135849_0024",
+    "query_text": "Tell me about bad experiences with wrong orders",
+    "intent": "complaint"
+  },
+  {
+    "kurtosis": 2.0686,
+    "entropy": 2.5134,
+    "slope": -0.005709,
+    "score_range": 0.074,
+    "query_id": "q_1772135855_0025",
+    "query_text": "What are common complaints about overpriced meals?",
+    "intent": "complaint"
+  },
+  {
+    "kurtosis": -0.053,
+    "entropy": 2.5214,
+    "slope": -0.003688,
+    "score_range": 0.0398,
+    "query_id": "q_1772135859_0026",
+    "query_text": "Which restaurants serve small portions?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 3.4832,
+    "entropy": 2.4962,
+    "slope": -0.003014,
+    "score_range": 0.0438,
+    "query_id": "q_1772135867_0027",
+    "query_text": "What do people hate most about dining out?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 2.2734,
+    "entropy": 2.43,
+    "slope": -0.005176,
+    "score_range": 0.0616,
+    "query_id": "q_1772135874_0028",
+    "query_text": "Tell me about terrible waitstaff experiences",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.6902,
+    "entropy": 2.6166,
+    "slope": -0.003963,
+    "score_range": 0.0444,
+    "query_id": "q_1772135877_0029",
+    "query_text": "What restaurants have long wait times?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.29,
+    "entropy": 2.6923,
+    "slope": -0.001682,
+    "score_range": 0.0317,
+    "query_id": "q_1772135886_0030",
+    "query_text": "What are the biggest disappointments at popular restaurants?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.1676,
+    "entropy": 2.5883,
+    "slope": -0.001648,
+    "score_range": 0.0234,
+    "query_id": "q_1772135890_0031",
+    "query_text": "How is the food quality at local restaurants?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": 0.6511,
+    "entropy": 2.6441,
+    "slope": -0.004116,
+    "score_range": 0.049,
+    "query_id": "q_1772135896_0032",
+    "query_text": "What do reviews say about the taste of seafood?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": -1.4745,
+    "entropy": 2.7308,
+    "slope": -0.000628,
+    "score_range": 0.0142,
+    "query_id": "q_1772135903_0033",
+    "query_text": "Tell me about restaurants with fresh ingredients",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.0952,
+    "entropy": 2.5217,
+    "slope": -0.003071,
+    "score_range": 0.041,
+    "query_id": "q_1772135909_0034",
+    "query_text": "Which places have the best desserts?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 4.2004,
+    "entropy": 2.4136,
+    "slope": -0.009098,
+    "score_range": 0.126,
+    "query_id": "q_1772135914_0035",
+    "query_text": "What do people think about portion sizes?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.5738,
+    "entropy": 2.566,
+    "slope": -0.002958,
+    "score_range": 0.0366,
+    "query_id": "q_1772135919_0036",
+    "query_text": "How do people describe the flavor of curries?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.8194,
+    "entropy": 2.6826,
+    "slope": -0.003393,
+    "score_range": 0.0555,
+    "query_id": "q_1772135926_0037",
+    "query_text": "What are the most popular dishes people order?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.4898,
+    "entropy": 2.524,
+    "slope": -0.004448,
+    "score_range": 0.0489,
+    "query_id": "q_1772135933_0038",
+    "query_text": "Tell me about restaurants with homemade pasta",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.4115,
+    "entropy": 2.6206,
+    "slope": -0.006052,
+    "score_range": 0.0786,
+    "query_id": "q_1772135937_0039",
+    "query_text": "What do reviews say about steak quality?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.8935,
+    "entropy": 2.7506,
+    "slope": -0.003549,
+    "score_range": 0.0499,
+    "query_id": "q_1772135941_0040",
+    "query_text": "Which restaurants have good salads?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.8123,
+    "entropy": 2.6696,
+    "slope": -0.001675,
+    "score_range": 0.0244,
+    "query_id": "q_1772135945_0041",
+    "query_text": "How is the chicken prepared at popular places?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.3316,
+    "entropy": 2.7738,
+    "slope": -0.002405,
+    "score_range": 0.0412,
+    "query_id": "q_1772135950_0042",
+    "query_text": "What do people say about the freshness of sushi?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -1.1857,
+    "entropy": 2.6883,
+    "slope": -0.001907,
+    "score_range": 0.0309,
+    "query_id": "q_1772135954_0043",
+    "query_text": "How is the customer service at popular restaurants?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": -0.7271,
+    "entropy": 2.6791,
+    "slope": -0.003026,
+    "score_range": 0.0447,
+    "query_id": "q_1772135957_0044",
+    "query_text": "What do people say about waitstaff friendliness?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.0939,
+    "entropy": 2.6579,
+    "slope": -0.002646,
+    "score_range": 0.0315,
+    "query_id": "q_1772135962_0045",
+    "query_text": "Tell me about restaurants with fast service",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": 3.0391,
+    "entropy": 2.4833,
+    "slope": -0.003716,
+    "score_range": 0.0455,
+    "query_id": "q_1772135966_0046",
+    "query_text": "What makes service excellent at a restaurant?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": 1.7264,
+    "entropy": 2.6209,
+    "slope": -0.003367,
+    "score_range": 0.0499,
+    "query_id": "q_1772135974_0047",
+    "query_text": "How do servers handle complaints?",
+    "intent": "complaint"
+  },
+  {
+    "kurtosis": 1.1531,
+    "entropy": 2.5648,
+    "slope": -0.005654,
+    "score_range": 0.0711,
+    "query_id": "q_1772135979_0048",
+    "query_text": "What do people appreciate about restaurant managers?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 3.9778,
+    "entropy": 2.518,
+    "slope": -0.006578,
+    "score_range": 0.0913,
+    "query_id": "q_1772135984_0049",
+    "query_text": "Tell me about the attentiveness of waiters",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.2847,
+    "entropy": 2.6177,
+    "slope": -0.002486,
+    "score_range": 0.0346,
+    "query_id": "q_1772135989_0050",
+    "query_text": "What restaurants have the friendliest staff?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.3452,
+    "entropy": 2.3674,
+    "slope": -0.004596,
+    "score_range": 0.0488,
+    "query_id": "q_1772135994_0051",
+    "query_text": "Are there affordable restaurants with good food?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": -0.3445,
+    "entropy": 2.721,
+    "slope": -0.001822,
+    "score_range": 0.0269,
+    "query_id": "q_1772135998_0052",
+    "query_text": "What do people think about restaurant pricing?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 4.7246,
+    "entropy": 2.7384,
+    "slope": -0.001756,
+    "score_range": 0.0333,
+    "query_id": "q_1772136007_0053",
+    "query_text": "Which restaurants offer good value for money?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.2353,
+    "entropy": 2.6496,
+    "slope": -0.003125,
+    "score_range": 0.0433,
+    "query_id": "q_1772136012_0054",
+    "query_text": "How expensive are the top-rated restaurants?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.6071,
+    "entropy": 2.6797,
+    "slope": -0.003477,
+    "score_range": 0.0431,
+    "query_id": "q_1772136016_0055",
+    "query_text": "What do people say about lunch specials?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.3552,
+    "entropy": 2.7518,
+    "slope": -0.004641,
+    "score_range": 0.0624,
+    "query_id": "q_1772136023_0056",
+    "query_text": "Are happy hour deals worth it?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.124,
+    "entropy": 2.6863,
+    "slope": -0.004473,
+    "score_range": 0.0605,
+    "query_id": "q_1772136030_0057",
+    "query_text": "Which restaurants are overpriced for what they offer?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": -0.3079,
+    "entropy": 2.6675,
+    "slope": -0.001918,
+    "score_range": 0.0322,
+    "query_id": "q_1772136037_0058",
+    "query_text": "Tell me about budget-friendly dining options",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.8918,
+    "entropy": 2.6411,
+    "slope": -0.003571,
+    "score_range": 0.0551,
+    "query_id": "q_1772136041_0059",
+    "query_text": "What restaurants have a cozy atmosphere?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 4.1831,
+    "entropy": 2.5741,
+    "slope": -0.003766,
+    "score_range": 0.0498,
+    "query_id": "q_1772136050_0060",
+    "query_text": "Tell me about places with good outdoor seating",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.6669,
+    "entropy": 2.7092,
+    "slope": -0.003796,
+    "score_range": 0.062,
+    "query_id": "q_1772136056_0061",
+    "query_text": "Which restaurants have live music?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.1998,
+    "entropy": 2.4699,
+    "slope": -0.005864,
+    "score_range": 0.0626,
+    "query_id": "q_1772136061_0062",
+    "query_text": "What makes a restaurant feel romantic?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.7353,
+    "entropy": 2.5614,
+    "slope": -0.006299,
+    "score_range": 0.0732,
+    "query_id": "q_1772136067_0063",
+    "query_text": "How important is cleanliness to diners?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.0124,
+    "entropy": 2.2462,
+    "slope": -0.008264,
+    "score_range": 0.0888,
+    "query_id": "q_1772136071_0064",
+    "query_text": "What do people say about restaurant noise levels?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 5.1402,
+    "entropy": 2.6589,
+    "slope": -0.002633,
+    "score_range": 0.0435,
+    "query_id": "q_1772136077_0065",
+    "query_text": "Tell me about restaurants with unique decor",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 8.4414,
+    "entropy": 2.4007,
+    "slope": -0.004238,
+    "score_range": 0.0665,
+    "query_id": "q_1772136083_0066",
+    "query_text": "Which restaurants have the best views?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 0.3297,
+    "entropy": 2.5904,
+    "slope": -0.00239,
+    "score_range": 0.0299,
+    "query_id": "q_1772136089_0067",
+    "query_text": "What are the overall dining trends?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.657,
+    "entropy": 2.5873,
+    "slope": -0.001777,
+    "score_range": 0.0209,
+    "query_id": "q_1772136096_0068",
+    "query_text": "Summarize what people think about local restaurants",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.4856,
+    "entropy": 2.6766,
+    "slope": -0.00207,
+    "score_range": 0.0317,
+    "query_id": "q_1772136102_0069",
+    "query_text": "Give me an overview of restaurant experiences",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.7376,
+    "entropy": 2.5473,
+    "slope": -0.003686,
+    "score_range": 0.0433,
+    "query_id": "q_1772136109_0070",
+    "query_text": "What makes a restaurant highly rated?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 2.9914,
+    "entropy": 2.6102,
+    "slope": -0.003874,
+    "score_range": 0.0621,
+    "query_id": "q_1772136113_0071",
+    "query_text": "What factors lead to five-star reviews?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 3.2971,
+    "entropy": 2.4898,
+    "slope": -0.002836,
+    "score_range": 0.0356,
+    "query_id": "q_1772136118_0072",
+    "query_text": "Summarize the most common praise in restaurant reviews",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.0599,
+    "entropy": 2.5632,
+    "slope": -0.003421,
+    "score_range": 0.0451,
+    "query_id": "q_1772136123_0073",
+    "query_text": "What drives repeat customers to return?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.6274,
+    "entropy": 2.5801,
+    "slope": -0.004247,
+    "score_range": 0.0522,
+    "query_id": "q_1772136127_0074",
+    "query_text": "How do restaurants earn customer loyalty?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.3954,
+    "entropy": 2.5975,
+    "slope": -0.003351,
+    "score_range": 0.0494,
+    "query_id": "q_1772136133_0075",
+    "query_text": "What do people value most in a dining experience?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.9959,
+    "entropy": 2.543,
+    "slope": -0.003714,
+    "score_range": 0.0424,
+    "query_id": "q_1772136143_0076",
+    "query_text": "What separates great restaurants from average ones?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.2049,
+    "entropy": 2.6401,
+    "slope": -0.002518,
+    "score_range": 0.0324,
+    "query_id": "q_1772136151_0077",
+    "query_text": "How do expensive restaurants compare to budget ones?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 3.6004,
+    "entropy": 2.4908,
+    "slope": -0.004267,
+    "score_range": 0.0582,
+    "query_id": "q_1772136156_0078",
+    "query_text": "Is the food better at places with good service?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": -0.7073,
+    "entropy": 2.5307,
+    "slope": -0.00295,
+    "score_range": 0.0353,
+    "query_id": "q_1772136162_0079",
+    "query_text": "Which is more important to diners: food or atmosphere?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": 0.7025,
+    "entropy": 2.532,
+    "slope": -0.002995,
+    "score_range": 0.0344,
+    "query_id": "q_1772136167_0080",
+    "query_text": "Do chain restaurants or local spots get better reviews?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.2394,
+    "entropy": 2.5192,
+    "slope": -0.002613,
+    "score_range": 0.0452,
+    "query_id": "q_1772136172_0081",
+    "query_text": "How does lunch quality compare to dinner quality?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.3063,
+    "entropy": 2.387,
+    "slope": -0.006119,
+    "score_range": 0.0589,
+    "query_id": "q_1772136176_0082",
+    "query_text": "Are newer restaurants better than established ones?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 2.1354,
+    "entropy": 2.5525,
+    "slope": -0.003537,
+    "score_range": 0.0473,
+    "query_id": "q_1772136183_0083",
+    "query_text": "Do restaurants with large menus or small menus get better re",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 4.2545,
+    "entropy": 2.644,
+    "slope": -0.002082,
+    "score_range": 0.0354,
+    "query_id": "q_1772136187_0084",
+    "query_text": "Is takeout quality as good as dine-in?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.597,
+    "entropy": 2.6063,
+    "slope": -0.003673,
+    "score_range": 0.0429,
+    "query_id": "q_1772136194_0085",
+    "query_text": "Tell me about unique dining experiences",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.7401,
+    "entropy": 2.3862,
+    "slope": -0.008371,
+    "score_range": 0.097,
+    "query_id": "q_1772136200_0086",
+    "query_text": "What are some hidden gem restaurants?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 2.2138,
+    "entropy": 2.6363,
+    "slope": -0.002284,
+    "score_range": 0.0304,
+    "query_id": "q_1772136207_0087",
+    "query_text": "What unusual food items do people love?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": -1.0436,
+    "entropy": 2.4286,
+    "slope": -0.002323,
+    "score_range": 0.0254,
+    "query_id": "q_1772136213_0088",
+    "query_text": "Describe the most memorable restaurant visits",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.4782,
+    "entropy": 2.7615,
+    "slope": -0.0016,
+    "score_range": 0.0269,
+    "query_id": "q_1772136219_0089",
+    "query_text": "What quirky restaurants do people recommend?",
+    "intent": "recommendation"
+  },
+  {
+    "kurtosis": 2.9609,
+    "entropy": 2.5012,
+    "slope": -0.002172,
+    "score_range": 0.0271,
+    "query_id": "q_1772136225_0090",
+    "query_text": "Tell me about restaurants that surprised people",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.2991,
+    "entropy": 2.5745,
+    "slope": -0.001764,
+    "score_range": 0.0191,
+    "query_id": "q_1772136231_0091",
+    "query_text": "What creative dishes have reviewers mentioned?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.8412,
+    "entropy": 2.4783,
+    "slope": -0.002412,
+    "score_range": 0.0353,
+    "query_id": "q_1772136239_0092",
+    "query_text": "What are some underrated restaurants?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.59,
+    "entropy": 2.7373,
+    "slope": -0.001131,
+    "score_range": 0.0183,
+    "query_id": "q_1772136245_0093",
+    "query_text": "restaurants",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -1.1884,
+    "entropy": 2.4829,
+    "slope": -0.002238,
+    "score_range": 0.0257,
+    "query_id": "q_1772136254_0094",
+    "query_text": "food",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": -0.2388,
+    "entropy": 2.7271,
+    "slope": -0.001119,
+    "score_range": 0.0221,
+    "query_id": "q_1772136261_0095",
+    "query_text": "Tell me everything",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 0.4061,
+    "entropy": 2.6903,
+    "slope": -0.003917,
+    "score_range": 0.0492,
+    "query_id": "q_1772136266_0096",
+    "query_text": "What is good?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": -0.0636,
+    "entropy": 2.7137,
+    "slope": -0.0029,
+    "score_range": 0.0479,
+    "query_id": "q_1772136272_0097",
+    "query_text": "Is it worth going out to eat?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 3.5648,
+    "entropy": 2.6172,
+    "slope": -0.002134,
+    "score_range": 0.0334,
+    "query_id": "q_1772136278_0098",
+    "query_text": "How is the food in this area?",
+    "intent": "aspect"
+  },
+  {
+    "kurtosis": 1.6045,
+    "entropy": 2.4063,
+    "slope": -0.002113,
+    "score_range": 0.0268,
+    "query_id": "q_1772136285_0099",
+    "query_text": "What do you know about dining?",
+    "intent": "general"
+  },
+  {
+    "kurtosis": 1.727,
+    "entropy": 2.5315,
+    "slope": -0.002382,
+    "score_range": 0.0268,
+    "query_id": "q_1772136293_0100",
+    "query_text": "Tell me about eating out",
+    "intent": "general"
+  }
+]

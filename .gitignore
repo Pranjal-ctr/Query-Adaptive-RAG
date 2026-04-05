@@ -1,0 +1,38 @@
+# Virtual Environment
+myenv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Databases and Models
+faiss_food_db/
+faiss_legal_db/
+models/
+*.pkl
+*.bin
+
+# Node / JS (Dashboard)
+node_modules/
+.npm
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+.flaskenv
+
+# OS Files
+.DS_Store
+Thumbs.db

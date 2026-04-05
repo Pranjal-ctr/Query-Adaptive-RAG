@@ -1,0 +1,123 @@
+# 100 Sample queries for batch score collection
+# Mix of intent types to see diverse curve shapes
+# Run with: python src/rag_query.py --batch data/sample_queries.txt
+
+# ── Recommendation queries (15) ──
+What are the best restaurants for a date night?
+Can you recommend a place with great pizza?
+Suggest a restaurant with good vegetarian options
+Which place has the best burgers?
+Recommend a good brunch spot
+What's the best place for seafood?
+Where should I go for authentic Mexican food?
+Recommend a restaurant for a family dinner
+What's the best spot for a quick lunch?
+Suggest a place with amazing desserts
+Where can I get the best sushi?
+Recommend a cozy cafe for coffee
+What's the best barbecue restaurant?
+Suggest a restaurant with healthy food options
+Where should I go for the best breakfast?
+
+# ── Complaint queries (15) ──
+What are common complaints about slow service?
+Which restaurants have bad food quality?
+What do people dislike about expensive restaurants?
+Tell me about restaurants with rude staff
+What are the worst dining experiences?
+What do people complain about regarding cold food?
+Which places have the most negative reviews?
+What restaurants have hygiene problems?
+Tell me about bad experiences with wrong orders
+What are common complaints about overpriced meals?
+Which restaurants serve small portions?
+What do people hate most about dining out?
+Tell me about terrible waitstaff experiences
+What restaurants have long wait times?
+What are the biggest disappointments at popular restaurants?
+
+# ── Aspect queries: food (12) ──
+How is the food quality at local restaurants?
+What do reviews say about the taste of seafood?
+Tell me about restaurants with fresh ingredients
+Which places have the best desserts?
+What do people think about portion sizes?
+How do people describe the flavor of curries?
+What are the most popular dishes people order?
+Tell me about restaurants with homemade pasta
+What do reviews say about steak quality?
+Which restaurants have good salads?
+How is the chicken prepared at popular places?
+What do people say about the freshness of sushi?
+
+# ── Aspect queries: service (8) ──
+How is the customer service at popular restaurants?
+What do people say about waitstaff friendliness?
+Tell me about restaurants with fast service
+What makes service excellent at a restaurant?
+How do servers handle complaints?
+What do people appreciate about restaurant managers?
+Tell me about the attentiveness of waiters
+What restaurants have the friendliest staff?
+
+# ── Aspect queries: price (8) ──
+Are there affordable restaurants with good food?
+What do people think about restaurant pricing?
+Which restaurants offer good value for money?
+How expensive are the top-rated restaurants?
+What do people say about lunch specials?
+Are happy hour deals worth it?
+Which restaurants are overpriced for what they offer?
+Tell me about budget-friendly dining options
+
+# ── Aspect queries: ambience (8) ──
+What restaurants have a cozy atmosphere?
+Tell me about places with good outdoor seating
+Which restaurants have live music?
+What makes a restaurant feel romantic?
+How important is cleanliness to diners?
+What do people say about restaurant noise levels?
+Tell me about restaurants with unique decor
+Which restaurants have the best views?
+
+# ── General / aggregation queries (10) ──
+What are the overall dining trends?
+Summarize what people think about local restaurants
+Give me an overview of restaurant experiences
+What makes a restaurant highly rated?
+What factors lead to five-star reviews?
+Summarize the most common praise in restaurant reviews
+What drives repeat customers to return?
+How do restaurants earn customer loyalty?
+What do people value most in a dining experience?
+What separates great restaurants from average ones?
+
+# ── Comparative queries (8) ──
+How do expensive restaurants compare to budget ones?
+Is the food better at places with good service?
+Which is more important to diners: food or atmosphere?
+Do chain restaurants or local spots get better reviews?
+How does lunch quality compare to dinner quality?
+Are newer restaurants better than established ones?
+Do restaurants with large menus or small menus get better reviews?
+Is takeout quality as good as dine-in?
+
+# ── Exploratory queries (8) ──
+Tell me about unique dining experiences
+What are some hidden gem restaurants?
+What unusual food items do people love?
+Describe the most memorable restaurant visits
+What quirky restaurants do people recommend?
+Tell me about restaurants that surprised people
+What creative dishes have reviewers mentioned?
+What are some underrated restaurants?
+
+# ── Edge case / broad queries (8) ──
+restaurants
+food
+Tell me everything
+What is good?
+Is it worth going out to eat?
+How is the food in this area?
+What do you know about dining?
+Tell me about eating out

@@ -1,0 +1,23 @@
+langchain>=0.2.6
+langchain-core>=0.2.15
+langchain-community>=0.2.6
+langchain-text-splitters>=0.2.2
+
+faiss-cpu
+sentence-transformers
+transformers
+torch
+tqdm
+textblob
+ollama
+
+# Phase 0 — Analysis & Visualization
+scipy
+scikit-learn
+numpy
+matplotlib
+seaborn
+
+# Phase 2 — Regime Classification
+spacy
+# After install: python -m spacy download en_core_web_sm

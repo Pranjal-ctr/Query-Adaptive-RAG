@@ -1,0 +1,122 @@
+[
+  {
+    "metric": "entropy",
+    "yelp_mean": 4.3214,
+    "yelp_std": 0.0008,
+    "legal_mean": 4.321,
+    "legal_std": 0.0009,
+    "t_statistic": 3.7963,
+    "p_value": 0.000165,
+    "significance": "***",
+    "yelp_n": 396,
+    "legal_n": 100
+  },
+  {
+    "metric": "kurtosis",
+    "yelp_mean": 1.9161,
+    "yelp_std": 2.9469,
+    "legal_mean": 1.3251,
+    "legal_std": 2.5995,
+    "t_statistic": 1.8298,
+    "p_value": 0.067888,
+    "significance": "ns",
+    "yelp_n": 396,
+    "legal_n": 100
+  },
+  {
+    "metric": "score_range",
+    "yelp_mean": 0.0573,
+    "yelp_std": 0.0346,
+    "legal_mean": 0.0763,
+    "legal_std": 0.0406,
+    "t_statistic": -4.7085,
+    "p_value": 3e-06,
+    "significance": "***",
+    "yelp_n": 396,
+    "legal_n": 100
+  },
+  {
+    "metric": "max_similarity",
+    "yelp_mean": 0.6515,
+    "yelp_std": 0.0428,
+    "legal_mean": 0.695,
+    "legal_std": 0.0689,
+    "t_statistic": -7.8858,
+    "p_value": 0.0,
+    "significance": "***",
+    "yelp_n": 396,
+    "legal_n": 100
+  },
+  {
+    "metric": "mean_similarity",
+    "yelp_mean": 0.6087,
+    "yelp_std": 0.039,
+    "legal_mean": 0.6398,
+    "legal_std": 0.0502,
+    "t_statistic": -6.6923,
+    "p_value": 0.0,
+    "significance": "***",
+    "yelp_n": 396,
+    "legal_n": 100
+  },
+  {
+    "metric": "drop_ratio_k5",
+    "yelp_mean": 0.9466,
+    "yelp_std": 0.0431,
+    "legal_mean": 0.94,
+    "legal_std": 0.0384,
+    "t_statistic": 1.3879,
+    "p_value": 0.165778,
+    "significance": "ns",
+    "yelp_n": 396,
+    "legal_n": 100
+  },
+  {
+    "metric": "rel_precision_k5",
+    "yelp_mean": 0.9894,
+    "yelp_std": 0.0828,
+    "legal_mean": 0.994,
+    "legal_std": 0.0597,
+    "t_statistic": -0.5219,
+    "p_value": 0.601964,
+    "significance": "ns",
+    "yelp_n": 396,
+    "legal_n": 100
+  },
+  {
+    "metric": "norm_confidence_k5",
+    "yelp_mean": 0.6685,
+    "yelp_std": 0.1326,
+    "legal_mean": 0.674,
+    "legal_std": 0.1285,
+    "t_statistic": -0.3689,
+    "p_value": 0.712341,
+    "significance": "ns",
+    "yelp_n": 396,
+    "legal_n": 100
+  },
+  {
+    "metric": "drop_ratio_k3",
+    "yelp_mean": 0.9594,
+    "yelp_std": 0.0407,
+    "legal_mean": 0.9582,
+    "legal_std": 0.0337,
+    "t_statistic": 0.2891,
+    "p_value": 0.772617,
+    "significance": "ns",
+    "yelp_n": 396,
+    "legal_n": 100
+  },
+  {
+    "metric": "drop_ratio_k10",
+    "yelp_mean": 0.9301,
+    "yelp_std": 0.0454,
+    "legal_mean": 0.9158,
+    "legal_std": 0.0442,
+    "t_statistic": 2.8193,
+    "p_value": 0.005006,
+    "significance": "**",
+    "yelp_n": 396,
+    "legal_n": 100
+  }
+]

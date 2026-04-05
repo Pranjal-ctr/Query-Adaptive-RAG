@@ -1,0 +1,1502 @@
+[
+  {
+    "query": "Is the wait time typically long at Drive Thru?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does Carisma Restaurante offer free service for recalls?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "What is the ambience like at Tahini and bread?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are the noodles thick at Cheu Ramen Bar?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the parking near Tucson's worst restaurant readily available?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the service slow at the mentioned restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does El Limon have authentic Mexican food?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are burgers salted and peppered at the quaint location?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is there indoor seating at this establishment?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "How are the wait times at Kanella Greek Taverna?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the service friendly on the Ybor walking tour?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are the vermicelli bowls available for takeout at Alberta Ave restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "What is the cooking style of shrimp and grits at the NOLA restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does Harry's blue bell offer outdoor seating?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "How long are the wait times typically at the best burger place in Philly?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the sushi fresh at Orange Tint and Tune?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does Blow Bar have outdoor seating?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "What is the price range for dinner at the restaurant mentioned in review 5?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does the restaurant in review 7 offer carryout options due to disappointing service?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is parking available near the restaurant with refrigerator cold ribs (mentioned in review 7)?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the gumbo served with rice or potato salad at this place?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "What is the ambience like at The Preserve, a nature reserve and cafe?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does Sweet CeCe's have unique hummus flavors for toppings?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "How large are the portion sizes in family-style dining at this restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the green beans served at this restaurant noteworthy?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the beer selection good at the Nintendo 64 bar?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Was the vehicle repair free of charge at this garage?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "How is the breakfast value at the truffle restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does the guacamole stand out in the overpriced meal?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are there commercials on the TV shows at the hotel?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the pad Thai spicy at the first-time restaurant visit?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does the North Wilmington diner offer healthy topping options?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "What are the prices like for lunch specials at the Chinese place?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is there a customer service department at the disrecommended place?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is parking easily available near the expensive, distant restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does the coffee shop offer a menu?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is there a specific location for the 50% off Tulane student offer?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does the restaurant sell deboned duck upon request?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the pastries selection at Santana's exceptional?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are portions small or large at this restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the background music loud at this restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does the restaurant offer group dining options?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are prices higher during weekdays compared to weekends?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is customer service improved after a year's gap?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are recommendations provided by servers at this location?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the bun soft and chewy at this Sonoran Dog place?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does this diner offer fast service during happy hour?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are the cannolis freshly filled at Termini Bros?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does Sweet CeCe's have a good selection of toppings?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is parking available near North Wilmington's diner?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the service mediocre at this comedy club?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does Weaver's Way have a cozy interior?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are there vegetarian options at Silver Mine?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does the University location of the sandwich shop offer parking on the street?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the coffee selection huge at the ice cream parlor?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the pulled pork at Pulled Pork Place overdone?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does Terrace Lounge offer a new cocktail menu?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "What is the ambience like at Body Cycle gym?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "How are the portion sizes at Planet Fitness cafe?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are reservations necessary for dinner at the fishing lodge-themed restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the Pear Gorgonzola Melt a large serving at this restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does this diner offer outdoor seating?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are there vegetarian options at the Chinese restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "How is the coffee strength at Sips mocha?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does the Green Project have a parking lot for customers?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the sushi served individually at the hibachi restaurant?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Does Value City Furniture offer Broyhill furniture?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "What are the prices like at Milktooth for breakfast cocktails?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Are there TV stands available in large quantities at Value City?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is parking readily available near the pizza cookie place?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the food tour in New Orleans historically informative?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Did Monro Muffler underfill engine oil at Bergeys?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Was the Chippewa tanning deal a bait-and-switch?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Were the ribs served warm and cold at this location?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is Prep & Pastry breakfast buffet satisfactory?",
+    "intent_ground_truth": "factoid",
+    "curve_expectation": "PEAKED — one dominant relevant chunk expected"
+  },
+  {
+    "query": "Is the service quality at Pure Design better than a typical diner?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are the sandwiches at the convenience store deli as good as the Cuban press?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the food quality at the local gem better than chain restaurants for dinner?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does the ambience of the salon compare to that of a hotel lobby?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are the steaks at the oak-grilled restaurant more expensive than diner food prices?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is service faster at fast food places or sit-down restaurants?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does the quality of Chinese takeout compare to dining in?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are dishes at hole-in-the-wall eateries as good as at upscale restaurants?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are lunch specials more affordable than regular priced meals?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the service friendlier at cafes or buffet-style restaurants?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the service at restaurant A as good as restaurant B?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Which offers better value for money: lunch or dinner menu at local eateries?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do newer food trucks have better reviews than established ones?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are takeout options from fine dining restaurants comparable to dine-in quality?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the ambiance of a farm-themed restaurant more appealing during autumn compared to spring?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are meals at Rusty Pelican more expensive than local spots?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do customers prefer small menus or a wide variety at brunch spots?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does weekend service outshine weekday service at trendy restaurants?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the food quality of takeout comparable to dining in at The Local Place?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the quality of dishes at Sweet CeCe's local source better than other locations?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does Han Dynasty in Old City have a better service compared to the one mentioned in the review?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are the prices at the restaurant offering breakfast with smashed home fries cheaper than Santana's in Camden, NJ?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the frozen yogurt bar at the monthly favorite eatery as extensive as Starbucks, DD, Micky D's, or others?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do dishes served at high-priced restaurants like the one with tender steak and perfectly cooked shrimp get better food reviews than budget options?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the lunch special better than dinner at Cuban restaurants in the area?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are prices more affordable for barbecue at lunch or dinner?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do dessert spots like the one on Germantown Ave offer a wider variety during weekdays or weekends?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are reviews of local food spots generally higher than chain restaurants?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the service speedier for takeout orders compared to dining in at hipster restaurants?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the coffee spot's ambiance more appealing to an artsy crowd or traditional diners?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are the gluten-free and vegan options at this restaurant better than other establishments?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the service speed at the dance studio faster or slower compared to others?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does Copabanana's outdoor dining offer a more relaxing atmosphere during weekdays or weekends?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are the shrimp dishes at this restaurant rated higher than their steak options?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the lunch menu at budget restaurants more affordable than dinner?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do higher-priced dishes get better food reviews than lower-priced options in this restaurant?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are wait times during weekday dine-in service faster compared to weekend brunch?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do family-style restaurants have better ambiance than cafes for group gatherings?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is takeout service from upscale restaurants as quick as fast food delivery in the same area?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are Upland's burgers and tenderloins better or worse than their pizza?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do customers prefer Three Stars for food quality over prompt service?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is Panang curry from the sister restaurant as good as the one at this hidden gem in Florissant?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are prices at the tire shop more affordable than parking fees at high-rated restaurants?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are biscuit-based breakfast sandwiches at local cafes better than chain fast food?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is home-cooked diner food more enjoyable than a gourmet restaurant experience?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Which offers faster service: traditional diners or upscale restaurants?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do larger menus result in lower ratings compared to smaller ones?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are weekend breakfasts at brunch spots more popular than dinner options?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are takeout meals at Han Dynasty as flavorful as dining in?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does the weekend service at Beck's Cajun Cafe get slower compared to weekdays?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are the vegan options at this Korean restaurant more popular than non-vegan dishes?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the gator sausage in the gumbo better than jambalaya at Beck's Cajun Cafe?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do chain restaurants like Mid-Atlantic offer a wider variety of dishes compared to local spots?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the food at breakfast spot A better than B for lunch?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does restaurant C's service during weekdays compare to weekend service?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are the portions at Chick-fil-A smaller or larger compared to Greek pancake house D?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Which receives more complaints: slow service at restaurant E or overpriced menu items?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the ambience at milk and honey F cozier than a typical fast food chain?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is In-n-Out's animal style better than Fellini's Cafe's Italian cuisine?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are larger menus at Ghini's more appealing than smaller ones at Vermicelli Bowl House?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do newer Ghini's management get better reviews than the old one?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is service speed at In-n-Out comparable to Fellini's Cafe's attentiveness?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are brunch spots' breakfast rated higher than dinner at Ghini's?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is Fresco's pizza better than Becca's pulled pork?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Which offers better value: Fresco's or the hotel restaurant in Review 4?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does the service at Becca's outperform that of the hotel bar in Review 4?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the food quality at Fresco comparable to the delicious sides at the smokehouse (Review 6)?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do slower wait times at Fresco balance with the faster service at Becca's (Review 2)?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are Indian street food dishes at this place better or worse than the Cuban options nearby?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the quality of gnocchi with marinara superior to the baked eggplant appetizer in terms of taste?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Do breakfast meals served all day get better ratings than lunch specials in family diners?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Are small menu items at this restaurant rated higher than large menu options for variety?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does the price of diner breakfast match the quality compared to expensive brunch spots?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Is the ice cream selection at Village Whiskey as extensive as Los Padres National Forest?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "Does the ambience of the restaurant reviewed in Review 7 compare favorably to White Rock at Lopez Lake?",
+    "intent_ground_truth": "comparative",
+    "curve_expectation": "STAIRCASE — two groups of relevant chunks expected"
+  },
+  {
+    "query": "What food items are most frequently praised for their flavor in reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What common complaints do customers have about service in restaurant reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which dishes receive the most mentions in negative reviews, and why?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How does the overall sentiment regarding value for money compare across different restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What patterns emerge when analyzing customer comments on ambience and atmosphere?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What common themes do reviewers mention about the ambience at local restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What dishes are frequently praised in positive reviews for their taste?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What service behaviors do customers complain about most often?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How do overall ratings compare between restaurants with outdoor seating options?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Are there any specific menu items that receive mixed feedback from reviewers?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What food aspects do customers often praise at Gennaro's?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Are parking issues frequently mentioned in one-star restaurant reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What dishes are most commonly mentioned in positive reviews for BBQ restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How is the service described overall in vegan fast food places?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "In which restaurants do customers often comment on long wait times?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What aspects of ambience do reviewers frequently praise at South Philly restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What service behaviors are often mentioned in positive reviews for university city eateries?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What dishes get the most mentions in reviews of cozy bars with unique drinks?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How do customers generally describe the value-for-money at winery/brewery tour venues?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What common complaints do reviewers express about outdoor dining locations?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What are the most commonly praised dishes among reviewers?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What are common complaints about dining experience and service?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How do customers rate value for money in five-star restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which cuisine types receive the most positive feedback overall?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What aspects of the restaurant interior are most frequently praised?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which food items receive the most positive mentions in reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How often do customers comment on waiting times at restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What themes appear in reviews about service behaviors and interactions?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Do customers feel that the value for money varies between establishments?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What food aspects do customers often praise in Asian restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How do customers generally describe the quality of service at fast food establishments?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What themes appear most frequently in negative reviews for upscale dining venues?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which dishes are commonly mentioned as favorites among patrons visiting burger joints?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "In what ways do customers comment on value for money at outdoor dining locations?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What aspects of food do customers frequently praise or criticize?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What are the most common complaints about restaurant service?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Are there trends in customer reviews about ambiance and atmosphere?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which dishes receive the most positive mentions among various diners?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What aspects of food quality do customers praise most frequently in local restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What are the common complaints about service encounters in dining out experiences?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How is the ambience at local restaurants described by reviewers overall?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What dishes receive the most positive mentions across multiple reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "In what ways do customers describe their experience with the pricing and value for money in restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What food items receive frequent praise in positive reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How do reviewers describe the value for money at various dining establishments?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What themes appear repeatedly in one-star reviews regarding ambience?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which dishes are most frequently mentioned in five-star reviews about Asian cuisine?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What aspects of service receive the most praise in restaurant reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Do customers often mention parking issues with local eateries?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What are the most frequently mentioned dishes in positive Asian food reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What negative sentiments about ambience arise in dining out experiences?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which dishes are frequently mentioned in positive reviews of Italian restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What patterns emerge in customer reviews regarding portion sizes and value for money?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How do ambience and atmosphere affect customer satisfaction in fine dining establishments?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "In one-star reviews, what service behaviors are most commonly criticized?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What aspects of service do customers often praise or criticize in local restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which dishes are most frequently mentioned in reviews with high and low ratings?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Do ambience preferences vary between indoor and outdoor seating options in restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What are the common complaints about parking or accessibility at popular eateries?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What do customers frequently praise about the service at local restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Summarize opinions on food quality across various restaurants' reviews.",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How often is ambience described positively or negatively in restaurant reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which specific dishes receive consistent positive feedback from reviewers?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What aspects of food are most often described as \"amazing\" or \"delicious\" in reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How frequently do customers mention poor service experiences at casual restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What themes appear in reviews about the quality and size of portions?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Do reviewers often mention specific dishes that stand out positively in upscale establishments?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What themes appear repeatedly in one-star restaurant reviews related to food quality?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "In what aspects of ambience do reviewers often remark positively or negatively?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What are the most frequent comments about service quality in reviews?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "How do customers rate the variety of food offerings across multiple restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "Which dishes receive consistent praise for presentation and taste?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What is the general sentiment towards parking difficulties at local eateries?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "In what ways do customers describe the ambience in their favorite dining spots?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What dishes are most frequently praised in American restaurants?",
+    "intent_ground_truth": "aggregation",
+    "curve_expectation": "FLAT — many equally relevant chunks expected"
+  },
+  {
+    "query": "What unique Senegalese dishes have reviewers found delightful at hidden gem restaurants?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you suggest local food spots in Camden NJ that tourists often miss?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which coffee shops offer exceptional espresso and a relaxing atmosphere?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What are some affordable eateries with surprisingly great service?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there underrated places in Woodland Avenue known for their West African cuisine?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What are some overlooked Mediterranean dishes that have garnered unexpected praise?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which restaurants in Camden, NJ offer an exceptional breakfast experience?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you share some unique food items served at the Smoothie King Center?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What hidden gems offer excellent sushi options in towns with limited choices?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which affordable eateries serve dishes that exceed expectations in terms of quality and taste?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What unusual food items have been paired unexpectedly well in reviews?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which restaurants offer great value with affordable pricing, despite a high-end ambiance?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Describe unique dining experiences where service exceeded expectations significantly.",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which local eateries have hidden parking solutions or easy access that reviewers appreciate?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What underappreciated desserts are worth exploring in food reviews, beyond the typical favorites?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What unique, off-the-beaten-path restaurants serve exceptional wings?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which overlooked places offer surprising and high-quality boozy shakes?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you find reviews of quirky dishes served with a memorable ambience?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What are some hidden gems with reasonable prices that provide exceptional service?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there underappreciated spots offering creative menu items that fill customers?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What hidden gem restaurants have regular patrons that rave about their unique zucchini muffins?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you find unusual food pairings in industrial areas that reviewers were pleasantly surprised by?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Describe memorable dining experiences involving authentic Indian street food, as reported by multiple reviewers.",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which budget-friendly restaurants offer exceptional service and a fantastic frozen yogurt bar?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there underrated salon services offered at seemingly average beauty spots, like the one in review 5?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What unusual dishes have reviewers been pleasantly surprised by in historic restaurants?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you recommend hidden gem cafes with exceptional service for a quiet afternoon outing?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which affordable eateries offer an unexpectedly comfortable environment for long meals?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What underrated food trucks serve creative and innovative menu items worth seeking out?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there any restaurants with interesting decor that reviewers find themselves returning to often?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What quirky Mexican dishes in Pennsylvanian restaurants have customers raved about?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you uncover exceptional management companies that prioritize unique requests like SRS?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What lesser-known delis offer extensive menu options for lunch hour patrons?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there hidden gems among the ice cream shops with surprising milkshake offerings?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What local spots do tourists often overlook, despite glowing recommendations from locals?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What underrated food items have surprised customers in local eateries?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which restaurants offer memorable dining experiences with exceptional ambience?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you find some hidden gem bistros known for their excellent service and price value?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there any unusual dishes that customers rave about, beyond the menu's highlights?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What are the average-looking places that deliver unexpectedly great food or service?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What are the most charming restaurants with exceptional ambience?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you suggest some hidden gem bakeries offering unique desserts?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What lesser-known food items have customers been pleasantly surprised to find?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which restaurants provide a memorable experience despite long wait times?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What affordable eateries serve high-quality dishes that exceed expectations?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What unique dishes have long wait times led customers to appreciate more?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you suggest some underrated restaurants with excellent service and ambience?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What hidden gems offer surprisingly affordable prices for a quality dining experience?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there any unusual food items that became unexpected favorites despite initial skepticism?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which restaurants have reviewers described as transforming their dining experiences in unexpected ways?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What hidden gems offer unexpectedly good food for the price?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you find restaurants with devoted loyal customers and a quirky ambiance?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What are some underrated dishes that have surprised diners despite average-looking menus?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there overlooked eateries with remarkable service and long wait times worth it?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which places offer unique dining experiences combining bougie and casual atmospheres?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What hidden gem restaurants in the area have been discovered for their unique outdoor experiences?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which quirky food items have reviewers been pleasantly surprised to find on an average-looking menu?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you share memorable dining experiences that were elevated by exceptional service?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there any underappreciated, high-quality restaurants with reasonable pricing deserving attention?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What underrated places offer unusual ambience that locals love but tourists might miss?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What hidden gems offer exceptional smoothies and fresh bread?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you recommend memorable dining experiences with unique bourbon libations?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which restaurants consistently exceed expectations despite average appearances?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What underrated places serve creatively presented grits and grillades?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What local favorites do tourists often overlook in New Orleans food scene?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What unique and lesser-known food items have customers praised at University City restaurants?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which hidden gem Italian eateries in South Philly offer unexpected warmth and homely atmosphere?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there underappreciated Korean restaurants in the city known for their custom soondubu stews?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What quirky fusion cuisine combinations have surprised diners at Philly's Mexican establishments?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you identify restaurants with exceptionally long wait times but still worth the patience due to their food quality?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What underrated hidden gems serve unique English-themed dishes?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Which restaurants have surprisingly affordable prices despite a cozy ambience?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Can you identify creative menu items that are worth the steep price tag?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "Are there any local favorites with notable loyal customer bases for organic produce?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  },
+  {
+    "query": "What underappreciated spots offer efficient waitlist services for weekend dining?",
+    "intent_ground_truth": "exploratory",
+    "curve_expectation": "NOISY/MIXED — unpredictable distribution expected"
+  }
+]

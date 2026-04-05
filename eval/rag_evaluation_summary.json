@@ -1,0 +1,282 @@
+{
+  "total_queries": 396,
+  "relevance_threshold": 0.65,
+  "overall": {
+    "max_similarity": {
+      "mean": 0.6515,
+      "min": 0.4683,
+      "max": 0.7835
+    },
+    "min_similarity": {
+      "mean": 0.5942,
+      "min": 0.4445,
+      "max": 0.6979
+    },
+    "mean_similarity": {
+      "mean": 0.6087,
+      "min": 0.4543,
+      "max": 0.7135
+    },
+    "mean_used_similarity": {
+      "mean": 0.63,
+      "min": 0.4626,
+      "max": 0.7301
+    },
+    "score_range": {
+      "mean": 0.0573,
+      "min": 0.0142,
+      "max": 0.2917
+    },
+    "score_dropoff_at_used": {
+      "mean": 0.9487,
+      "min": 0.6536,
+      "max": 0.9966
+    },
+    "score_dropoff_at_10": {
+      "mean": 0.9301,
+      "min": 0.6275,
+      "max": 0.9894
+    },
+    "precision_at_3": {
+      "mean": 0.3552,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "precision_at_5": {
+      "mean": 0.2889,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "precision_at_10": {
+      "mean": 0.2106,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "ndcg_at_5": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "ndcg_at_10": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "ndcg_at_20": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "mrr": {
+      "mean": 0.5076,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "hit_rate_at_3": {
+      "mean": 0.5076,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "hit_rate_at_5": {
+      "mean": 0.5076,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "hit_rate_at_10": {
+      "mean": 0.5076,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "confidence_score": {
+      "mean": 0.9679,
+      "min": 0.7565,
+      "max": 0.9981
+    },
+    "relevant_chunks_total": {
+      "mean": 3.0227,
+      "min": 0,
+      "max": 20
+    },
+    "relevant_chunks_in_used": {
+      "mean": 1.4545,
+      "min": 0,
+      "max": 8
+    },
+    "num_used": {
+      "mean": 4.6692,
+      "min": 4,
+      "max": 8
+    },
+    "faithfulness_score": {
+      "mean": 4.2727,
+      "min": 3,
+      "max": 5
+    },
+    "relevancy_score": {
+      "mean": 4.1515,
+      "min": 2,
+      "max": 5
+    },
+    "completeness_score": {
+      "mean": 3.7778,
+      "min": 2,
+      "max": 5
+    }
+  },
+  "per_intent": {
+    "aspect": {
+      "count": 127,
+      "max_similarity": 0.6489,
+      "min_similarity": 0.5956,
+      "mean_similarity": 0.6093,
+      "mean_used_similarity": 0.6282,
+      "score_range": 0.0533,
+      "score_dropoff_at_used": 0.9503,
+      "score_dropoff_at_10": 0.935,
+      "precision_at_3": 0.3438,
+      "precision_at_5": 0.2819,
+      "precision_at_10": 0.1992,
+      "ndcg_at_5": 1.0,
+      "ndcg_at_10": 1.0,
+      "ndcg_at_20": 1.0,
+      "mrr": 0.4882,
+      "hit_rate_at_3": 0.4882,
+      "hit_rate_at_5": 0.4882,
+      "hit_rate_at_10": 0.4882,
+      "confidence_score": 0.9688,
+      "relevant_chunks_total": 2.6299,
+      "relevant_chunks_in_used": 1.4094,
+      "num_used": 5.0,
+      "faithfulness_score": 4.2812,
+      "relevancy_score": 4.0938,
+      "completeness_score": 3.875
+    },
+    "complaint": {
+      "count": 17,
+      "max_similarity": 0.6612,
+      "min_similarity": 0.6099,
+      "mean_similarity": 0.6238,
+      "mean_used_similarity": 0.6406,
+      "score_range": 0.0513,
+      "score_dropoff_at_used": 0.9514,
+      "score_dropoff_at_10": 0.9388,
+      "precision_at_3": 0.549,
+      "precision_at_5": 0.4471,
+      "precision_at_10": 0.3412,
+      "ndcg_at_5": 1.0,
+      "ndcg_at_10": 1.0,
+      "ndcg_at_20": 1.0,
+      "mrr": 0.6471,
+      "hit_rate_at_3": 0.6471,
+      "hit_rate_at_5": 0.6471,
+      "hit_rate_at_10": 0.6471,
+      "confidence_score": 0.969,
+      "relevant_chunks_total": 4.7059,
+      "relevant_chunks_in_used": 2.5294,
+      "num_used": 6.0,
+      "faithfulness_score": 4.0,
+      "relevancy_score": 4.25,
+      "completeness_score": 4.0
+    },
+    "general": {
+      "count": 226,
+      "max_similarity": 0.649,
+      "min_similarity": 0.5882,
+      "mean_similarity": 0.6032,
+      "mean_used_similarity": 0.6273,
+      "score_range": 0.0608,
+      "score_dropoff_at_used": 0.9477,
+      "score_dropoff_at_10": 0.9251,
+      "precision_at_3": 0.3083,
+      "precision_at_5": 0.2434,
+      "precision_at_10": 0.1735,
+      "ndcg_at_5": 1.0,
+      "ndcg_at_10": 1.0,
+      "ndcg_at_20": 1.0,
+      "mrr": 0.4779,
+      "hit_rate_at_3": 0.4779,
+      "hit_rate_at_5": 0.4779,
+      "hit_rate_at_10": 0.4779,
+      "confidence_score": 0.9675,
+      "relevant_chunks_total": 2.4646,
+      "relevant_chunks_in_used": 1.0752,
+      "num_used": 4.0,
+      "faithfulness_score": 4.2632,
+      "relevancy_score": 4.1579,
+      "completeness_score": 3.6842
+    },
+    "recommendation": {
+      "count": 26,
+      "max_similarity": 0.6798,
+      "min_similarity": 0.6289,
+      "mean_similarity": 0.6434,
+      "mean_used_similarity": 0.6562,
+      "score_range": 0.0509,
+      "score_dropoff_at_used": 0.9483,
+      "score_dropoff_at_10": 0.9435,
+      "precision_at_3": 0.6923,
+      "precision_at_5": 0.6154,
+      "precision_at_10": 0.5038,
+      "ndcg_at_5": 1.0,
+      "ndcg_at_10": 1.0,
+      "ndcg_at_20": 1.0,
+      "mrr": 0.7692,
+      "hit_rate_at_3": 0.7692,
+      "hit_rate_at_5": 0.7692,
+      "hit_rate_at_10": 0.7692,
+      "confidence_score": 0.9659,
+      "relevant_chunks_total": 8.6923,
+      "relevant_chunks_in_used": 4.2692,
+      "num_used": 8.0,
+      "faithfulness_score": 4.5,
+      "relevancy_score": 4.3333,
+      "completeness_score": 4.0
+    }
+  },
+  "llm_judge_subset": {
+    "sample_size": 99,
+    "overall": {
+      "faithfulness_score": {
+        "mean": 4.2727,
+        "min": 3,
+        "max": 5
+      },
+      "relevancy_score": {
+        "mean": 4.1515,
+        "min": 2,
+        "max": 5
+      },
+      "completeness_score": {
+        "mean": 3.7778,
+        "min": 2,
+        "max": 5
+      }
+    },
+    "per_intent": {
+      "aspect": {
+        "count": 32,
+        "faithfulness_score": 4.2812,
+        "relevancy_score": 4.0938,
+        "completeness_score": 3.875
+      },
+      "complaint": {
+        "count": 4,
+        "faithfulness_score": 4.0,
+        "relevancy_score": 4.25,
+        "completeness_score": 4.0
+      },
+      "general": {
+        "count": 57,
+        "faithfulness_score": 4.2632,
+        "relevancy_score": 4.1579,
+        "completeness_score": 3.6842
+      },
+      "recommendation": {
+        "count": 6,
+        "faithfulness_score": 4.5,
+        "relevancy_score": 4.3333,
+        "completeness_score": 4.0
+      }
+    }
+  }
+}

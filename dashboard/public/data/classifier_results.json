@@ -1,0 +1,86 @@
+{
+  "models": {
+    "LogisticRegression": {
+      "accuracy": 0.6694,
+      "accuracy_std": 0.065,
+      "f1_macro": 0.6685,
+      "auc": 0.7146
+    },
+    "RandomForest": {
+      "accuracy": 0.6109,
+      "accuracy_std": 0.0243,
+      "f1_macro": 0.6091,
+      "auc": 0.638
+    },
+    "GradientBoosting": {
+      "accuracy": 0.5866,
+      "accuracy_std": 0.0657,
+      "f1_macro": 0.5848,
+      "auc": 0.6165
+    }
+  },
+  "best_model": "LogisticRegression",
+  "best_accuracy": 0.6694,
+  "feature_importance": {
+    "n_tokens": 0.4521,
+    "n_chars": 0.5099,
+    "n_entities": 0.7766,
+    "n_entity_types": 0.19,
+    "noun_ratio": 0.1299,
+    "verb_ratio": 0.2635,
+    "adj_ratio": 0.2212,
+    "n_nouns": 0.3252,
+    "n_verbs": 0.2932,
+    "n_adj": 0.2033,
+    "n_adv": 0.2837,
+    "max_depth": 1.0356,
+    "mean_depth": 1.3624,
+    "has_question_mark": 0.2365,
+    "n_question_words": 0.001,
+    "n_legal_keywords": 0.151,
+    "n_food_keywords": 0.3948,
+    "avg_word_len": 0.2399
+  },
+  "class_distribution": {
+    "flat": 238,
+    "discriminative": 258
+  },
+  "confusion_matrix": [
+    [
+      167,
+      71
+    ],
+    [
+      79,
+      179
+    ]
+  ],
+  "classification_report": {
+    "Flat": {
+      "precision": 0.6788617886178862,
+      "recall": 0.7016806722689075,
+      "f1-score": 0.6900826446280992,
+      "support": 238.0
+    },
+    "Discriminative": {
+      "precision": 0.716,
+      "recall": 0.6937984496124031,
+      "f1-score": 0.7047244094488189,
+      "support": 258.0
+    },
+    "accuracy": 0.6975806451612904,
+    "macro avg": {
+      "precision": 0.6974308943089431,
+      "recall": 0.6977395609406554,
+      "f1-score": 0.6974035270384591,
+      "support": 496.0
+    },
+    "weighted avg": {
+      "precision": 0.6981796485706793,
+      "recall": 0.6975806451612904,
+      "f1-score": 0.6976987239098444,
+      "support": 496.0
+    }
+  },
+  "threshold": 0.05
+}

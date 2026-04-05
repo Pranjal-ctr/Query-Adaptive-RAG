@@ -1,0 +1,45 @@
+# Adaptive RAG Research Project — Step-by-Step
+
+**Thesis**: "Similarity score distributions are structured, query-dependent signals. We characterize their shape taxonomy, use them for adaptive retrieval, and show confidence scores predict answer quality without ground truth."
+
+---
+
+## Phase 0 — Foundation Stabilization (Week 1–2)
+
+### Week 1: Clean Baseline + Score Collection
+- [ ] Clean up RAG code into reproducible single pipeline
+- [ ] Fix BGE prefix consistently (query + ingestion)
+- [ ] Set chunk_size=512, overlap=100, sentence-aware splitting
+- [ ] Store similarity scores for every retrieval to CSV
+- [ ] Add centralized config (`config.py`)
+- [ ] Run on 100 queries, save full similarity score vectors
+
+### Week 2: Evaluation Dataset + Baseline Metrics
+- [ ] Auto-generate 200 Q&A pairs from Yelp docs using Mistral 7B
+- [ ] Hand-curate 50 high-quality ground truth pairs
+- [ ] Run baseline system on all 200, record P@K, R@K, similarity vectors
+- [ ] Save all curves to disk → raw research data
+- [ ] Produce deliverable CSV: `query_id, query_text, type_label, similarity_scores, P@5, R@5, faithfulness`
+
+---
+
+## Phase 1 — Core Scientific Finding (Week 3–5)
+- [ ] Compute per-curve features: kurtosis, slope, bimodality, entropy
+- [ ] K-means clustering (k=3-4) on shape features
+- [ ] Plot cluster centroids → discover shape taxonomy
+- [ ] Logistic regression: shape features → answer correctness (AUC)
+- [ ] Cross-domain validation on CUAD dataset
+
+## Phase 2 — Build Adaptive System (Week 6–9)
+- [ ] Embedding-based intent classifier with prototypes
+- [ ] Adaptive retriever with shape-aware trimming strategies
+- [ ] Confidence score: mean(selected_sims) / max(sim)
+- [ ] Prompt template selection by query complexity
+
+## Phase 3 — Comprehensive Evaluation (Week 10–12)
+- [ ] 5-system baseline comparison (Static-K3/K5, Intent-K, QA-RAG, Oracle-K)
+- [ ] Calibration experiment (confidence vs faithfulness)
+- [ ] Ablation study
+
+## Phase 4 — Paper Writing (Week 13–16)
+- [ ] Sections 3→4→5→2→1→Abstract

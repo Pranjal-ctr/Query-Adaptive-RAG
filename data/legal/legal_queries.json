@@ -1,0 +1,502 @@
+[
+  {
+    "query": "What is the provision for medical examination of an accused under Section 53 of CrPC?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What constitutes 'hurt' as defined in Section 112 of IPC?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "Under which section can a person be penalized for entering unlawfully into property with intent to commit offence or intimidate others?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the limitation period for filing an illegal purchase case under Section 218 of IPC?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What kind of conviction makes a person subject to imprisonment for life or extended term under Section 13 of the Indian Penal Code?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the punishment for fraudulent use of stamps issued by Government for revenue under Section 182?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "Under which section can assault or criminal force be inflicted on a woman with the intention to disrobe her?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the penalty for destroying, damaging, or defiling any place of worship with the intention of insulting the religion of any class of persons?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "Under what conditions does the right of private defense not extend to voluntarily causing death to the assailant in Indian law?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the provision for punishment when someone wilfully wages war against the Government of India or attempts to do so?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the penalty for wrongful confinement under Section 140 of IPC?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What does Section 166 of the Indian Penal Code concern?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What constitutes sexual harassment as defined in Section 74 of the Indian Penal Code?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "When can private defence of the body be invoked according to Section 40 of the Indian Penal Code?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "Under which section does abduction occur, as per Section 136 of the Indian Penal Code?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the minimum sentence for robbery or dacoity when armed with a deadly weapon under Section 310 of IPC?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "Under what exception can obstruction of a private way not be considered an offence under Section 124 of IPC?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What property can't be subject to punishment under this Sanhita for the offences defined in Chapter VI (Army, Navy, and Air Force)?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is considered as 'electoral right' for the purposes of the Indian Penal Code?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What penalty applies for intentionally omitting to give information about a known crime under Section 237 of IPC?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the punishment for using a forged document or electronic record in India?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What constitutes a kidnapping offense under Section 138 of IPC?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the penalty for dishonest misappropriation of property possessed by a deceased person?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "Under which section can one be liable for abducting someone for exploitation in India?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the maximum sentence for making a false document or electronic record under IPC Section 338?",
+    "intent": "factoid",
+    "domain": "legal"
+  },
+  {
+    "query": "How does Section 134 compare to Section 135 in terms of the gravity of assault or criminal force?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "What are the differences between the commutation of death sentences and life imprisonment sentences in Indian law?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "Compare the penalties for negligently conveying a person by water (Section 282) with those for breaking open or unfastening a closed receptacle containing property (Section 332).",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How do the rights and responsibilities of tenants differ under old and new rent control acts in India?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "In Indian law, how does the punishment for aiding or assisting an escape of a state prisoner compare to that for obstructing the production or delivery of documents to public servants?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How does Section 300 differ from Section 189 in terms of intent and punishment for offenses?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "Compare the differences between bailable and non-bailable offenses regarding bail provisions.",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "What are the distinctions between civil remedies for breach of contract and criminal remedies under Indian law?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How do life imprisonment terms in Section 6 compare to other penalties in Indian legal texts?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "Compare the rights and responsibilities of a caregiver as per Sections 355 and 208 in providing for vulnerable individuals.",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How does Section 134 compare with Section 132 in terms of the grave and sudden provocation requirement?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "What is the difference between concealing design to commit an offence (Section 60) and collecting arms to wage war against the Government (Section 147)?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "Compare the penalties for abetting an offence (Section 50) with the punishment for engaging a child below eighteen years in sexual exploitation (Section 142).",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How do civil remedies differ from criminal remedies when dealing with property disputes in Indian law?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "Compare the powers and jurisdictions of High Courts and Supreme Court under Article 227 and Article 397, respectively.",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How does Section 241 compare with Section 131 in terms of punishment for property concealment versus assault?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "What are the differences between the penalties for non-bailable and bailable offences under Indian law?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How do the powers of a High Court and a Supreme Court differ under Article 226 and Article 32, respectively?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "Is trafficking in slaves punished more severely than fraudulent removal or concealment of property as per Section 143 and Section 241?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How does Section 325 compare to Section 127 in terms of the nature of intent and affected property?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "What are the differences between Section 254 and Section 295 regarding trust misappropriation and lotteries?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "Compare penalties for dishonestly misappropriating property under Section 314 with those for altering coin weight or composition under Section 185.",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How do the powers of a public servant framing incorrect records differ between Article 226 and Article 32?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "How does the penalty for Section 295 differ from Section 78?",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "Compare the conditions for remission of punishment in Section 241 with those in Section 264.",
+    "intent": "comparative",
+    "domain": "legal"
+  },
+  {
+    "query": "What are the common penalties for false personation and deception in criminal law?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "Which fundamental rights guarantee protection against arbitrary arrest and detention in Indian constitutional law?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What remedies are available for breach of contract cases involving false markings on goods?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What types of disputes can be resolved through arbitration, specifically in property law matters?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "In what ways do Indian laws protect women's rights across various aspects such as marriage, inheritance, and employment?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What common defences exist across Indian laws for offenders accused of financial fraud?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What fundamental rights and liberties are typically infringed upon during custodial interrogations in Indian law?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "In what ways do different legal provisions address property disputes arising from succession or inheritance issues?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What common grounds for appeal exist in both civil and criminal proceedings across various Indian laws?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "How does the Indian Penal Code, Civil Procedure Code, and Criminal Procedure Code harmonize on matters related to evidence collection and presentation?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What are the crimes punishable with life imprisonment or death as per the Indian Penal Code?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What fundamental rights are guaranteed under sections related to personal liberty in the Constitution?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What remedies are available for breach of a lease agreement in property law?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What common defences are available in cases of theft, according to the Indian Penal Code?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "In what ways can false information intended to harm another person be punishable under the Indian Penal Code?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What common penalties exist for acts posing a danger to life in Indian criminal law?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "How does Indian law address disputes related to property rights and inheritance?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "In what ways are fundamental rights protected under the Indian Penal Code and Criminal Procedure Code?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What defences are commonly used in cases of intentional harm without consent, according to Indian law?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "Across various legal acts, what measures are taken for environmental protection and conservation?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What are the mandatory minimum sentences for offences involving deadly weapons in robbery or dacoity?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "How are abetment and sedition addressed across various sections of Indian law?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What are the common grounds for challenging the validity of contracts mentioned in civil law?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "Which fundamental rights under Part III of the Constitution pertain to the right to life and liberty?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "Across different acts, what provisions exist for environmental protection against air pollution?",
+    "intent": "aggregation",
+    "domain": "legal"
+  },
+  {
+    "query": "What lesser-known provisions in Indian law protect digital records from falsification?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What innovative legal remedies have been developed for disputes related to building repair or construction?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "In the context of civil law, what are some often overlooked contractual clauses that could benefit small businesses?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "Beyond sections 63-67, are there other cybercrime provisions in Indian law that need closer attention?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What unusual provisions exist in Indian property law regarding the attachment and restoration of property?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What unique provisions in Indian labor law protect workers from digital exploitation?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What lesser-known aspects of Indian intellectual property law govern AI and data ownership?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "How have Indian courts addressed the intersection of privacy rights and technology in recent cases?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What potential legal remedies for environmental damage exist beyond traditional fines and penalties?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "In what ways do Indian land acquisition laws balance private property rights with public interest?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What unique provisions govern the marriage and cohabitation of unmarried couples in Indian law?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "How have Assistant Public Prosecutors and the Directorate of Prosecution influenced the Indian justice system?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What lesser-known clauses regulate the handling of property in public ways or navigation in Indian civil law?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "In what instances does a person serving life imprisonment face additional penalties for committing murder under Indian law?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "Can you identify unusual contractual agreements that courts have deemed valid in India?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What lesser-known provisions in Indian contract law govern digital contracts and e-commerce transactions?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "How have courts interpreted the concept of 'public nuisance' in recent years, and what are the implications for urban planning in India?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What unique constitutional protections exist for vulnerable groups like transgender individuals under Indian law?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What innovative legal remedies have been established to address cyberstalking and online harassment cases in India?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "In what ways do animal welfare laws intersect with environmental protection regulations in India?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What lesser-known provisions in Indian law protect victims of emotional distress?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "How have Indian courts dealt with complex conflicts between contractual obligations and public interest?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "What innovative legal remedies have been developed for addressing land disputes in rural areas?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "How does the concept of 'grave and sudden provocation' differ across various Indian criminal law sections?",
+    "intent": "exploratory",
+    "domain": "legal"
+  },
+  {
+    "query": "In what ways do Indian constitutional provisions impact the rights of women during divorce proceedings?",
+    "intent": "exploratory",
+    "domain": "legal"
+  }
+]
