@@ -1,18 +1,18 @@
 <p align="center">
-  <h1 align="center">🔍 Query-Adaptive RAG</h1>
+  <h1 align="center"> Query-Adaptive RAG</h1>
   <p align="center"><em>Cross-Domain Regime-Aware Retrieval-Augmented Generation</em></p>
   <p align="center"><strong>A research project demonstrating that similarity score distributions are structured, predictive signals for optimizing RAG retrieval depth.</strong></p>
 </p>
 
 ---
 
-## 👤 Author
+##  Author
 
 **Pranjal Sahani** — [GitHub](https://github.com/Pranjal-ctr)
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Standard RAG systems retrieve a **fixed number of K** chunks regardless of query complexity or domain. This project proves empirically that the **shape of the similarity score distribution** itself is a predictive signal. We:
 
@@ -27,7 +27,7 @@ Standard RAG systems retrieve a **fixed number of K** chunks regardless of query
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 Query-Adaptive-RAG/
@@ -158,7 +158,7 @@ npm install
 
 ---
 
-## 🚀 Executing the Code
+##  Executing the Code
 
 ### A. Full Pipeline Execution (Sequential Steps)
 
@@ -254,11 +254,11 @@ python src/cli.py --domain legal
   [Retrieval] Found 4 chunks. Generating answer...
 
 ------------------------------------------------------------
-🤖 RAG Answer:
+ RAG Answer:
 According to Section 310 of IPC, robbery or dacoity when armed with
 a deadly weapon carries a minimum sentence of...
 ------------------------------------------------------------
-📊 Retrieval Stats:
+ Retrieval Stats:
   • Top Chunk Similarity: 0.8240
   • Lowest Chunk Similarity: 0.7113
   • Score Range: 0.1127
@@ -276,12 +276,12 @@ npm run dev
 
 Open **http://localhost:5173/** in your browser to explore:
 
-- 📊 **Overview** — KPIs, query distribution, theoretical framework
-- 🍽️ **Yelp Domain** — Similarity distributions, feature radar charts
-- ⚖️ **Legal Domain** — Taxonomy plots, intent clustering
-- 🔄 **Cross-Domain Comparison** — t-test table, bar charts, domain structure analysis
-- 🤖 **Classifier** — Model accuracy, confusion matrix, feature importance
-- 🎯 **Regime-Aware Retrieval** — Baseline vs adaptive K performance
+-  **Overview** — KPIs, query distribution, theoretical framework
+-  **Yelp Domain** — Similarity distributions, feature radar charts
+-  **Legal Domain** — Taxonomy plots, intent clustering
+-  **Cross-Domain Comparison** — t-test table, bar charts, domain structure analysis
+-  **Classifier** — Model accuracy, confusion matrix, feature importance
+-  **Regime-Aware Retrieval** — Baseline vs adaptive K performance
 
 ---
 
@@ -300,12 +300,9 @@ Open **http://localhost:5173/** in your browser to explore:
 
 ---
 
-## 📄 License
+##  License
 
 This project is developed for academic and research purposes.
 
 ---
 
-<p align="center">
-  <sub>Built with ❤️ by the Query-Adaptive RAG Research Team</sub>
-</p>
